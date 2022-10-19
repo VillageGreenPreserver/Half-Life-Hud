@@ -146,7 +146,7 @@
 		"enabled"		"1"
 		"font"			"C_Arial11"
 		"textAlignment"	"west"
-		"command"		"engine exec credits"
+		"command"		"close"
 		//"command"		"engine hud_reloadscheme; toggle mat_aaquality"
 		"auto_wide_tocontents"	"1"
 		"labeltext"		"T E A M   F O R T R E S S   2"
