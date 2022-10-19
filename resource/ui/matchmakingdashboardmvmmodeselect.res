@@ -1,0 +1,407 @@
+#base "MatchMakingDashboardSidePanel.res"
+
+"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+{
+	"MVMModeSelect"
+	{
+		"fieldName"		"MVMModeSelect"
+		"xpos"			"r0"
+		"ypos"			"36"
+		"zpos"			"1002"
+		"wide"			"f20"
+		"tall"			"74"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"MvMLogoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMLogoImage"
+		"xpos"			"30"
+		"ypos"			"-5"
+		"zpos"			"2"
+		"wide"			"o2"
+		"tall"			"100"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled" "0"
+		"image"			"mvm/mvm_logo"
+		"scaleImage"	"1"
+	}
+
+	"MannUpGroupBox"
+	{
+		//"ControlName"	"EditablePanel"
+		"fieldName"		"MannUpGroupBox"
+		"xpos"		"r206+8"
+		"ypos"		"18"
+		"zpos"		"1"
+		"wide"		"140"
+		"tall"		"26"
+		"visible"	"1"
+		"enabled"	"1"
+		"proportionaltoparent"	"1"
+
+		"DropShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"DropShadow"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"1000"
+			"wide"			"f0"
+			"tall"			"1"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"border"		"c_src_concave"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+		}
+
+		"MannUpImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MannUpImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"o1"
+			"visible"		"0"
+			"enabled"		"1"
+			"mouseinputenabled" "0"
+			"image"			"mvm/mannup"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}
+
+		"Gradient"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Gradient"
+			"xpos"		"0"
+			"ypos"		"rs1"
+			"wide"		"f0"
+			"tall"		"100"
+			"zpos"	"1"
+			"visible"		"0"
+			"enabled"		"1"
+			"rotation"		"0"
+			"proportionaltoparent"	"1"
+			"scaleimage"	"1"
+			"mouseinputenabled"	"0"
+			"alpha"		"255"
+
+			"image"		"gradient_pure_black"
+		}
+
+		"PlayNowButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"PlayNowButton"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"60"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"#TF_MvM_MannUp"
+			"font"			"c_src_tahoma7"
+			"textAlignment"	"west"
+			"textinsetx"	"6"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"mannup"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+			
+			"paintborder"	"0"
+			"paintbackground"	"0"
+
+			"defaultFgColor_override"	"c_src_textcolor"
+			"armedFgColor_override"		"c_src_textcolor"
+			"depressedFgColor_override" "c_src_textcolor"
+		}
+		
+		"PlayNowBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PlayNowBorder"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"19"
+			"wide"			"60"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"border"	"c_src_convex"
+		}
+
+		"PlayForBraggingRightsExplanation"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"PlayForBraggingRightsExplanation"
+			"font"			"c_src_tahoma7"
+			"fgcolor_override"	"c_src_dulltextcolor"
+			"labelText"		"#TF_MvM_BraggingRightsExplaination"
+			"textAlignment"	"north-west"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"80"
+			"tall"			"40"
+			"wrap" "1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+		}
+	}
+
+	"PracticeGroupBox"
+	{
+		//"ControlName"	"EditablePanel"
+		"fieldName"		"PracticeGroupBox"
+		"xpos"		"r206+8"
+		"ypos"		"49"
+		"zpos"		"100"
+		"wide"		"140"
+		"tall"		"20"
+		"visible"	"1"
+		"enabled"	"1"
+		"proportionaltoparent"	"1"
+
+		"DropShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"DropShadow"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"1000"
+			"wide"			"f0"
+			"tall"			"1"
+			"visible"		"0"
+			"PaintBackgroundType"	"2"
+			"border"		"c_src_concave"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+		}
+
+		"BootcampImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BootcampImage"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"o1"
+			"visible"		"0"
+			"enabled"		"1"
+			"mouseinputenabled" "0"
+			"image"			"mvm/bootcamp"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}
+
+		"Gradient"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Gradient"
+			"xpos"		"0"
+			"ypos"		"rs1"
+			"wide"		"f0"
+			"tall"		"100"
+			"zpos"	"1"
+			"visible"		"0"
+			"enabled"		"1"
+			"rotation"		"0"
+			"proportionaltoparent"	"1"
+			"scaleimage"	"1"
+			"mouseinputenabled"	"0"
+			"alpha"		"255"
+
+			"image"		"gradient_pure_black"
+		}
+
+		"PracticeButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"PracticeButton"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"60"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"#TF_MvM_BootCamp"
+			"font"			"c_src_tahoma7"
+			"textAlignment"	"west"
+			"textinsetx"	"6"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"bootcamp"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+			
+			"paintborder"	"0"
+			"paintbackground"	"0"
+
+			"enabledFgColor_override"	"c_src_textcolor"
+			"defaulttextColor_override"	"c_src_textcolor"
+			"defaultFgColor_override"	"c_src_textcolor"
+			"armedFgColor_override"		"c_src_textcolor"
+			"depressedFgColor_override" "c_src_textcolor"
+		}
+		
+		"PlayNowBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PlayNowBorder"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"19"
+			"wide"			"60"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"border"	"c_src_convex"
+		}
+
+		"PlayOnCommunityServerExplanation"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"PlayOnCommunityServerExplanation"
+			"font"			"c_src_tahoma7"
+			"fgcolor_override"	"c_src_dulltextcolor"
+			"labelText"		"#TF_MvM_PracticeExplaination"
+			"textAlignment"	"north-west"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"80"
+			"tall"			"40"
+			"wrap" "1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+		}
+	}
+	
+	"Title"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"Title"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"99"
+		"wide"		"271"
+		"tall"		"14"
+		"proportionaltoparent"	"1"
+		"labeltext"		"MvM"
+		"textAlignment"	"west"
+		"font"			"c_src_tahoma6"
+		"textinsetx"	"16"
+		"fgcolor_override"	"c_src_textcolor"
+		
+		"mouseinputenabled"	"0"
+		
+		"pin_to_sibling"		"BG"
+		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"0"
+	}
+	
+	"CloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton"
+		"labelText"		"r"
+		"xpos"			"-4"
+		"ypos"			"-4"
+		"zpos"			"101"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"command"		"nav_close"
+
+		"textAlignment"	"center"
+		"font"			"c_src_Marlett6"
+		"paintbackground"	"0"
+		"defaultFgColor_override"	"c_src_closebutton"
+		"armedFgColor_override"	"c_src_closebutton"
+		
+		"pin_to_sibling"		"BG"
+		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"1"
+	}
+	
+	"CloseButton2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton2"
+		"labelText"		""
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"command"		"nav_close"
+		"paintbackground"	"1"
+		"paintbackgroundtype"	"0"
+		"roundedcorners"	"0"
+		"paintborder"	"0"
+		"defaultbgColor_override"	"0 255 0 0"
+		"armedbgColor_override"	"0 255 0 0"
+	}
+	
+	"ReturnButton"
+	{
+		"xpos"	"rs1-50"
+		"ypos"	"0"
+		"wide"	"156"
+		"tall"	"74"
+	}
+	
+	"BG"
+	{
+		"wide"	"156"
+		"xpos"	"rs1-50"
+		"ypos"	"0"
+		"tall"	"74"
+	}
+	
+	"BG2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"156"
+		"tall"			"74"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"paintbackgroundtype"		"2"
+		"bgcolor_override"	"100 100 100 255"
+		
+		"pin_to_sibling"		"BG"
+		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"0"
+	}
+}

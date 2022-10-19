@@ -1,0 +1,11 @@
+event CasualCategory_Selected
+{
+	Animate Shade BgColor "0 0 0 0" Deaccel 0 0.2
+	Animate Title		FgColor c_src_selectedTextColor Deaccel 0 0.2
+}
+
+event CasualCategory_NotSelected
+{
+	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
+	Animate Title		FgColor c_src_dullTextColor Deaccel 0 0.2
+}

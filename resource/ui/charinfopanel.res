@@ -1,0 +1,228 @@
+#base "../../customizations/aspect_ratio/enabled/16x9/charinfopanel.res"
+#base "../../customizations/aspect_ratio/enabled/16x10/charinfopanel.res"
+#base "../../customizations/aspect_ratio/enabled/4x3/charinfopanel.res"
+
+"Resource/UI/CharInfoPanel.res"
+{
+	"character_info"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"character_info"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"settitlebarvisible"	"0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"				"46 43 42 0"
+		"infocus_bgcolor_override"		"46 43 42 0"
+		"outoffocus_bgcolor_override"	"46 43 42 0"
+		
+		"title"			"#CharInfoAndSetup"
+		"title_font"	"HudFontMediumBold"
+		"titletextinsetX"	"40"
+		"titletextinsetY"	"0"
+		"titlebarfgcolor_override"				"200 187 161 255"
+		"titlebardisabledfgcolor_override"		"200 187 161 255"
+		"titlebarbgcolor_override"				"46 43 42 255"
+		
+		"clientinsetx_override"			"0"
+		"sheetinset_bottom"				"0"
+	}
+	
+	"Background"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"o1.7777"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleimage"			"1"
+		"image"			"../console/background01"
+	}	
+	
+	"BackgroundHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}				
+	"BackgroundFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+	}				
+	"FooterLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+	}				
+	
+	"Sheet"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Sheet"
+		"tabxdelta"		"0"
+		"tabwidth"		"240"
+		"tabheight"		"11"
+		"transition_time" "0"
+		"yoffset"	"60"
+		
+		"HeaderLine"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"HeaderLine"
+			"xpos"			"0"
+			"ypos"			"32"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"10"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"loadout_solid_line"
+			"scaleImage"	"1"
+		}				
+		
+		"tabskv"
+		{
+			"textinsetx"		"6"
+			"font"				"c_src_Tahoma8"
+			"selectedcolor"		"c_src_textcolor"
+			"unselectedcolor"	"c_src_defaulttextcolor"	
+			"defaultBgColor_override"	"c_src_bgcolor"
+			"depressedBgColor_override"	"c_src_bgcolor"
+			"selectedBgColor_override"	"c_src_bgcolor"
+			"armedBgColor_override"	"c_src_bgcolor"
+			"paintbackground"	"1"
+			"activeborder_override"	"c_src_tab_on"
+			"normalborder_override" "c_src_tab_off"
+		}
+	}
+	
+	"TitleButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"TitleButton"
+		"xpos"			"12"
+		"ypos"			"rs1-6"
+		"wide"			"140"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"			"C_Arial11"
+		"textAlignment"	"west"
+		"command"		"engine exec credits"
+		//"command"		"engine hud_reloadscheme; toggle mat_aaquality"
+		"auto_wide_tocontents"	"1"
+		"labeltext"		"T E A M   F O R T R E S S   2"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"	"UI/buttonrollover.wav"
+		"proportionaltoparent"	"1"
+			
+		"paintbackground"	"0"
+		"paintborder"	"0"
+		"defaultfgcolor_override"	"244 116 20 255" //244 117 12 255
+		"armedfgcolor_override"		"C_MenuButtonArmed"	
+	}
+	
+	
+	"BackButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"2"
+		"wide"			"70"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Back"
+		"font"			"C_Tahoma8"
+		"textAlignment"	"west"
+		"Command"		"back"
+		"sound_armed"	"UI/buttonrollover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"		"TitleButton"
+		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"2"
+		
+		"paintbackground"	"0"
+		"paintborder"	"0"
+		"defaultfgcolor_override"	"c_menubuttondefault"
+		"armedfgcolor_override"		"c_menubuttonarmed"
+	}
+	
+	"BackButton_KeyBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton_KeyBind"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&Q"
+		"Command"		"back"
+	}	
+	
+	"NotificationsPresentPanel"
+	{
+		"ControlName"	"CNotificationsPresentPanel"
+		"fieldName"		"NotificationsPresentPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"190"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"Background"
+		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+	}
+}

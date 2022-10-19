@@ -1,0 +1,40 @@
+"Resource/UI/NotificationsPresentPanel.res"
+{
+	"NotificationsPresentPanel"
+	{
+		"ControlName"	"CNotificationsPresentPanel"
+		"fieldName"		"NotificationsPresentPanel"
+		"xpos"			"rs1-125"
+		"ypos"			"48"
+		"zpos"			"10000"
+		"wide"			"160"
+		"tall"			"22"
+		"visible"		"0"
+		"enabled"		"1"
+		"border"		"c_src_convex"
+		"bgcolor_override"	"C_Src_BGColor"
+	}
+
+	"TextLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"TextLabel"
+		"fgcolor"		"TanLight"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		"#Notifications_Present"
+		"textAlignment"	"west"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"6"
+		"font"			"TFFontSmall"
+		"proportionaltoparent"	"1"
+	}
+}
