@@ -2,7 +2,7 @@ Scheme
 {
 	BitmapFontFiles
 	{
-	
+		"Test"		"materials/vgui/fonts/buttonz"
 	}
 	
 	Fonts
@@ -96,6 +96,142 @@ Scheme
 			}
 		}
 		
+		//==========Trebuchet============
+		
+		"C_Trebuchet16"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet18"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet20"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet22"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"22"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet24"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet26"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"26"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet28"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"28"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet30"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"30"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet32"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet34"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"34"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet36"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet38"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"38"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		
+		
 		//=========Fake Source Scheme Stuff===========
 		
 		"C_Src_Tahoma4"
@@ -143,28 +279,6 @@ Scheme
 				"tall"		"6"
 				"weight"	"0"
 				"symbol"	"1"
-			}
-		}
-		
-		"HudNumbersHL1"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"40"
-				"weight"	"400"
-				"antialias" "1"
-				"additive"	"1"
-				"range"		"0x0000 0x017F"
-			}
-			"2"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"40"
-				"weight"	"1000"
-				"antialias" "1"
-				"additive"	"1"
-				"range"		"0x0000 0x017F"
 			}
 		}
 	}

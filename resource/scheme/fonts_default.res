@@ -5,6 +5,7 @@ Scheme
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
+		"ButtonsSC32"	"materials/vgui/fonts/buttons_sc_32.vbf"
 	}
 	
 	Fonts
@@ -705,6 +706,19 @@ Scheme
 			{
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
+				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		
+		BitmapFontTest
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC32"
 				"scalex"	"0.5"
 				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
