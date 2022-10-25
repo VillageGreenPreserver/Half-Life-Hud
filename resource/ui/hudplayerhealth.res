@@ -34,17 +34,39 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"xpos"			"16"
+		"ypos"			"rs1-4"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
+		"wide"			"o1"
+		"tall"			"0"
+		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_bg"
+		"image"			"replay/thumbnails/hud/health"
+		"fillcolor"			"255 0 0 255"
 		"scaleImage"	"1"	
 	}	
+	
+	"C_HealthIcon"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"C_HealthIcon"
+		"xpos"			"16"
+		"ypos"			"rs1-4"
+		"wide"			"32"
+		"tall"			"32"
+		
+		"xpos_minmode"			"8"
+		"ypos_minmode"			"rs1-2"
+		"wide_minmode"			"14"
+		"tall_minmode"			"14"
+		
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"C_Health"
+		"iconColor"		"255 208 64 200"
+	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -74,15 +96,19 @@
 		"xpos"			"0"
 		"ypos"			"rs1"
 		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"102"
+		"tall"			"48"
+		
+		"wide_minmode"			"46"
+		"tall_minmode"			"21"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"012"
-		"textAlignment"	"center"	
-		//"font"			"C_Trebuchet38"
-		"font"			"BitmapFontTest"
-		"fgcolor"		"255 255 255 255"
+		"labelText"		"%health%"
+		"textAlignment"	"east"	
+		"font"			"C_HudNumbers"
+		"font_minmode"			"C_HudNumbersMinmode"
+		"fgcolor"		"255 208 64 200"
 	}
 	"PlayerStatusMaxHealthValue"
 	{

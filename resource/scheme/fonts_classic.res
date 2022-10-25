@@ -2,11 +2,34 @@ Scheme
 {
 	BitmapFontFiles
 	{
-		"Test"		"materials/vgui/fonts/buttonz"
 	}
 	
 	Fonts
 	{
+		"C_HudNumbers"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"38"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		
+		"C_HudNumbersMinmode"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+	
 		//=============Arial===========
 		
 		"C_Arial10"
@@ -227,7 +250,6 @@ Scheme
 				"tall"		"38"
 				"weight"	"500"
 				"antialias"	"1"
-				"blur"		"1"
 			}
 		}
 		
