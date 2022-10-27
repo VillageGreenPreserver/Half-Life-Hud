@@ -9,3 +9,67 @@ event CasualCategory_NotSelected
 	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
 	Animate Title		FgColor c_src_dullTextColor Deaccel 0 0.2
 }
+
+//===========================
+
+event HudHealthDyingPulse
+{
+	Animate	C_HealthIcon 				iconcolor	"C_HudNumbersLow"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"C_HudNumbersLow"		Linear 0.0 0.0
+	
+	Animate	C_HealthIcon 				alpha		"255"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	alpha		"255"		Linear 0.0 0.0
+	
+	Animate	C_HealthIcon 				alpha		"172"		Linear 1.0 0.5
+	Animate	PlayerStatusHealthValue 	alpha		"172"		Linear 1.0 0.5
+}
+
+event HudHealthDyingPulseStop
+{
+	Animate	C_HealthIcon 				iconcolor	"C_HudNumbersDefault"	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"C_HudNumbersDefault"	Linear 0.0 0.0
+	
+	Animate	C_HealthIcon 				alpha		"255"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	alpha		"255"		Linear 0.0 0.0
+	
+	Animate	C_HealthIcon 				alpha		"172"		Linear 1.0 0.5
+	Animate	PlayerStatusHealthValue 	alpha		"172"		Linear 1.0 0.5
+}
+
+//=====================
+
+event HudLowAmmoPulse
+{
+	Animate	C_AmmoIcon 					iconcolor	"C_HudNumbersLow"		Linear 0.0 0.0
+	Animate	AmmoNoClip 					fgcolor		"C_HudNumbersLow"		Linear 0.0 0.0
+	Animate	AmmoInClip 					fgcolor		"C_HudNumbersLow"		Linear 0.0 0.0
+	Animate	AmmoInReserve				fgcolor		"C_HudNumbersLow"		Linear 0.0 0.0
+	
+	Animate	C_AmmoIcon 					alpha		"255"		Linear 0.0 0.0
+	Animate	AmmoNoClip 					alpha		"255"		Linear 0.0 0.0
+	Animate	AmmoInClip 					alpha		"255"		Linear 0.0 0.0
+	Animate	AmmoInReserve 				alpha		"255"		Linear 0.0 0.0
+	
+	Animate	C_AmmoIcon 					alpha		"172"		Linear 1.0 0.5
+	Animate	AmmoNoClip 	 				alpha		"172"		Linear 1.0 0.5
+	Animate	AmmoInClip 	 				alpha		"172"		Linear 1.0 0.5
+	Animate	AmmoInReserve 				alpha		"172"		Linear 1.0 0.5
+}
+
+event HudLowAmmoPulseStop
+{
+	Animate	C_AmmoIcon 					iconcolor	"C_HudNumbersDefault"		Linear 0.0 0.0
+	Animate	AmmoNoClip 					fgcolor		"C_HudNumbersDefault"		Linear 0.0 0.0
+	Animate	AmmoInClip 					fgcolor		"C_HudNumbersDefault"		Linear 0.0 0.0
+	Animate	AmmoInReserve				fgcolor		"C_HudNumbersDefault"		Linear 0.0 0.0
+	
+	Animate	C_AmmoIcon 					alpha		"255"		Linear 0.0 0.0
+	Animate	AmmoNoClip 					alpha		"255"		Linear 0.0 0.0
+	Animate	AmmoInClip 					alpha		"255"		Linear 0.0 0.0
+	Animate	AmmoInReserve 				alpha		"255"		Linear 0.0 0.0
+	
+	Animate	C_AmmoIcon 					alpha		"172"		Linear 1.0 0.5
+	Animate	AmmoNoClip 	 				alpha		"172"		Linear 1.0 0.5
+	Animate	AmmoInClip 	 				alpha		"172"		Linear 1.0 0.5
+	Animate	AmmoInReserve 				alpha		"172"		Linear 1.0 0.5
+}

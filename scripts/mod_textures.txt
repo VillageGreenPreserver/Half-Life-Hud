@@ -3496,11 +3496,19 @@
 		
 		"C_Health"
 		{
-				"file"	"vgui/replay/thumbnails/hud/health"
-				"x"		"0"
-				"y"		"0"
-				"width"		"32"
-				"height"	"32"
+			"file"	"vgui/replay/thumbnails/hud/health"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		"C_Ammo"
+		{
+			"file"	"vgui/replay/thumbnails/hud/ammo"
+			"x"		"0"
+			"y"		"0"
+			"width"		"16"
+			"height"	"16"
 		}
 	}
 }

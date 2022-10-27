@@ -6,29 +6,7 @@ Scheme
 	
 	Fonts
 	{
-		"C_HudNumbers"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"38"
-				"weight"	"500"
-				"antialias"	"1"
-				"blur"		"1"
-			}
-		}
 		
-		"C_HudNumbersMinmode"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
-				"weight"	"500"
-				"antialias"	"1"
-				"blur"		"1"
-			}
-		}
 	
 		//=============Arial===========
 		
@@ -307,6 +285,10 @@ Scheme
 		
 	CustomFontFiles
 	{
-	
+		"8"
+		{
+			"font" "resource/fonts/OCR-A Regular.ttf"
+			"name" "OCR-A"
+		}
 	}
 }
