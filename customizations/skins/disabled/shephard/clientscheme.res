@@ -11,7 +11,7 @@ Scheme
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
-				"scanlines"	"2"
+				"scanlines"	"1"
 			}
 		}
 		
@@ -30,7 +30,6 @@ Scheme
 	
 	"Colors"
 	{
-		"C_HudNumbersDefault"	"0 255 0 255"
-		"C_HudNumbersLow"		"255 0 0 255"
+		"C_HudNumbersDefault"	"32 255 32 255"
 	}
 }

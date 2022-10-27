@@ -1,3 +1,7 @@
+#base "../customizations/skins/enabled/shephard/mod_textures.txt"
+
+#base "../resource/default_skin/mod_textures.txt"
+
 "sprites/640_hud"
 {
 
@@ -3494,21 +3498,6 @@
 				"height"	"32"
 		}
 		
-		"C_Health"
-		{
-			"file"	"vgui/replay/thumbnails/hud/health"
-			"x"		"0"
-			"y"		"0"
-			"width"		"32"
-			"height"	"32"
-		}
-		"C_Ammo"
-		{
-			"file"	"vgui/replay/thumbnails/hud/ammo"
-			"x"		"0"
-			"y"		"0"
-			"width"		"16"
-			"height"	"16"
-		}
+		
 	}
 }
