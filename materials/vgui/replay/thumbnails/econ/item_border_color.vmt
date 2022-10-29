@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "econ/item_border_color"
+	"$basetexture" "vgui/replay/thumbnails/econ/item_border_color"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 	"$ignorez" 1

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/hud/ammo"
+	"$basetexture" "vgui/replay/thumbnails/hud/640hud7"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 }

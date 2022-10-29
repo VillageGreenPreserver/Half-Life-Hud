@@ -26,7 +26,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"C_HudNumbers"
 		"fgcolor"		"c_HudNumbersDefault"
-		"xpos"			"12"
+		"xpos"			"14"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"84"
@@ -36,16 +36,16 @@
 		"textAlignment"	"east"		
 		"labelText"		"%Ammo%"
 		
-		"pin_to_sibling"	"C_AmmoDivider"
+		"pin_to_sibling"	"AmmoNoClip"
 		"pin_to_sibling_corner"	"7"
 		"pin_corner_to_sibling"	"5"
 		
-		"xpos_minmode"			"5"
+		"xpos_minmode"			"6"
 		"wide_minmode"			"32"
 		"tall_minmode"			"21"
 		"font_minmode"			"C_HudNumbersMinmode"
 		
-		"alpha"			"172"
+		"alpha"			"190"
 	}		
 	"AmmoInClipShadow"
 	{
@@ -57,11 +57,11 @@
 		"tall"			"0"
 		"visible"		"0"
 		
-	}				
-
+	}
+	
 	"C_AmmoDivider"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CIconPanel"
 		"fieldName"		"C_AmmoDivider"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -69,16 +69,19 @@
 		"tall"			"24"
 		"visible"		"1"	
 		"enabled"		"1"	
-		"fillcolor"		"c_HudNumbersDefault"
+		"iconColor"		"c_HudNumbersDefault"
+		"icon"			"C_Divider"
+		"scaleImage"	"1"
 		
 		"pin_to_sibling"	"AmmoNoClip"
 		"pin_to_sibling_corner"	"7"
 		"pin_corner_to_sibling"	"5"
 		
+		"xpos_minmode"			"0"
 		"wide_minmode"			"1"
 		"tall_minmode"			"11"
 		
-		"alpha"			"140"
+		"alpha"			"190"
 	}
 	
 	"AmmoInReserve"
@@ -102,7 +105,7 @@
 		"tall_minmode"			"21"
 		"font_minmode"		"C_HudNumbersMinmode"
 		
-		"alpha"			"172"
+		"alpha"			"190"
 	}		
 	"AmmoInReserveShadow"
 	{
@@ -135,7 +138,7 @@
 		"tall_minmode"			"21"
 		"font_minmode"			"C_HudNumbersMinmode"
 		
-		"alpha"			"172"
+		"alpha"			"190"
 	}	
 	"AmmoNoClipShadow"
 	{
@@ -153,15 +156,15 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"C_AmmoIcon"
-		"xpos"			"rs1-22"
-		"ypos"			"rs1-22"
-		"wide"			"16"
-		"tall"			"16"
+		"xpos"			"rs1-17"
+		"ypos"			"rs1-15"
+		"wide"			"24"
+		"tall"			"24"
 		
-		"xpos_minmode"			"rs1-10"
-		"ypos_minmode"			"rs1-9"
-		"wide_minmode"			"7"
-		"tall_minmode"			"7"
+		"xpos_minmode"			"rs1-8"
+		"ypos_minmode"			"rs1-7"
+		"wide_minmode"			"10"
+		"tall_minmode"			"10"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -169,6 +172,6 @@
 		"icon"			"C_Ammo"
 		"iconColor"		"C_HudNumbersDefault"
 		
-		"alpha"			"172"
+		"alpha"			"190"
 	}	
 }

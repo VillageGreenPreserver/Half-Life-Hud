@@ -543,7 +543,7 @@ Scheme
 		EconItemBorder
 		{
 			"bordertype"			"scalable_image"
-			"image"					"../econ/item_popup"
+			"image"					"replay/thumbnails/econ/item_popup"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -632,7 +632,7 @@ Scheme
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
-			"image"					"../econ/item_hover"
+			"image"					"replay/thumbnails/econ/item_hover"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -644,7 +644,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../econ/item_popup"
+			"image"					"replay/thumbnails/econ/item_popup"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -655,7 +655,7 @@ Scheme
 		BackpackItemGrayedOut
 		{
 			"bordertype"			"scalable_image"
-			"image"					"../econ/item_border"
+			"image"					"replay/thumbnails/econ/item_border"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -680,7 +680,7 @@ Scheme
 		BackpackItemBorder
 		{
 			"bordertype"			"scalable_image"
-			"image"					"../econ/item_border"
+			"image"					"replay/thumbnails/econ/item_border"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -690,7 +690,7 @@ Scheme
 		BackpackItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
-			"image"					"../econ/item_hover"
+			"image"					"replay/thumbnails/econ/item_hover"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -738,7 +738,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"color"					"QualityColorUnique"
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -749,7 +749,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"color"					"QualityColorUnique"
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -788,7 +788,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity1"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -801,7 +801,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity1"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -840,7 +840,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity2"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -853,7 +853,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity2"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -892,7 +892,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity3"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -905,7 +905,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity3"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -943,7 +943,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity4"
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -956,7 +956,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity4"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -995,7 +995,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1008,7 +1008,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1047,7 +1047,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeapon"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1060,7 +1060,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorPaintkitWeapon"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1099,7 +1099,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCollectors"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1112,7 +1112,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCollectors"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1151,7 +1151,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorVintage"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1164,7 +1164,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorVintage"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1201,7 +1201,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1214,7 +1214,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCommunity"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1253,7 +1253,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorDeveloper"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1266,7 +1266,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorDeveloper"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1305,7 +1305,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorSelfMade"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1318,7 +1318,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorSelfMade"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1357,7 +1357,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1370,7 +1370,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCustomized"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1409,7 +1409,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorStrange"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1422,7 +1422,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorStrange"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1461,7 +1461,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1474,7 +1474,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"QualityColorCompleted"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1513,7 +1513,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1526,7 +1526,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityDefault"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1564,7 +1564,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1577,7 +1577,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityCommon"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1615,7 +1615,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1628,7 +1628,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityUncommon"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1666,7 +1666,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1679,7 +1679,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityRare"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1717,7 +1717,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1730,7 +1730,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityMythical"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1768,7 +1768,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1781,7 +1781,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityLegendary"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1819,7 +1819,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 			
-			"image"					"../econ/item_border_color"
+			"image"					"replay/thumbnails/econ/item_border_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"
@@ -1832,7 +1832,7 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"ItemRarityAncient"
 			
-			"image"					"../econ/item_hover_color"
+			"image"					"replay/thumbnails/econ/item_hover_color"
 			
 			"src_corner_height"		"2"				// pixels inside the image
 			"src_corner_width"		"2"

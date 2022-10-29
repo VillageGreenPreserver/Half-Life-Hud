@@ -64,20 +64,44 @@
 		"icon"			"C_Health"
 		"iconColor"		"C_HudNumbersDefault"
 		
-		"alpha"			"172"
+		"alpha"			"190"
+	}
+	
+	"C_AmmoDivider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"C_AmmoDivider"
+		"xpos"			"10"
+		"ypos"			"0"
+		"wide"			"2"
+		"tall"			"24"
+		"visible"		"0"	
+		"enabled"		"1"	
+		"fillcolor"		"0 255 0 255"
+		
+		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_to_sibling_corner"	"5"
+		"pin_corner_to_sibling"	"7"
+		
+		"wide_minmode"			"1"
+		"tall_minmode"			"11"
+		
+		"alpha"			"255"
 	}
 	
 	"C_HealthDivider"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CIconPanel"
 		"fieldName"		"C_HealthDivider"
-		"xpos"			"10"
+		"xpos"			"11"
 		"ypos"			"0"
 		"wide"			"2"
 		"tall"			"24"
 		"visible"		"1"	
 		"enabled"		"1"	
-		"fillcolor"		"c_HudNumbersDefault"
+		"iconColor"		"c_HudNumbersDefault"
+		"icon"			"C_Divider"
+		"scaleImage"	"1"
 		
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 		"pin_to_sibling_corner"	"5"
@@ -87,7 +111,7 @@
 		"wide_minmode"			"1"
 		"tall_minmode"			"11"
 		
-		"alpha"			"140"
+		"alpha"			"190"
 	}
 	
 	"PlayerStatusHealthBonusImage"
@@ -121,7 +145,7 @@
 		"font_minmode"	"C_HudNumbersMinmode"
 		"fgcolor"		"C_HudNumbersDefault"
 		
-		"alpha"			"200"
+		"alpha"			"190"
 	}
 	"PlayerStatusMaxHealthValue"
 	{

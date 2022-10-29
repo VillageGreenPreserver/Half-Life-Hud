@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "econ/item_popup"
+	"$basetexture" "vgui/replay/thumbnails/econ/item_popup"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
 	"$ignorez" 1

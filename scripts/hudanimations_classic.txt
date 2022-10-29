@@ -20,8 +20,8 @@ event HudHealthDyingPulse
 	Animate	C_HealthIcon 				alpha		"255"		Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue 	alpha		"255"		Linear 0.0 0.0
 	
-	Animate	C_HealthIcon 				alpha		"172"		Linear 1.0 0.5
-	Animate	PlayerStatusHealthValue 	alpha		"172"		Linear 1.0 0.5
+	Animate	C_HealthIcon 				alpha		"190"		Linear 1.0 0.5
+	Animate	PlayerStatusHealthValue 	alpha		"190"		Linear 1.0 0.5
 }
 
 event HudHealthDyingPulseStop
@@ -32,8 +32,8 @@ event HudHealthDyingPulseStop
 	Animate	C_HealthIcon 				alpha		"255"		Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue 	alpha		"255"		Linear 0.0 0.0
 	
-	Animate	C_HealthIcon 				alpha		"172"		Linear 1.0 0.5
-	Animate	PlayerStatusHealthValue 	alpha		"172"		Linear 1.0 0.5
+	Animate	C_HealthIcon 				alpha		"190"		Linear 1.0 0.5
+	Animate	PlayerStatusHealthValue 	alpha		"190"		Linear 1.0 0.5
 }
 
 //=====================
@@ -50,10 +50,10 @@ event HudLowAmmoPulse
 	Animate	AmmoInClip 					alpha		"255"		Linear 0.0 0.0
 	Animate	AmmoInReserve 				alpha		"255"		Linear 0.0 0.0
 	
-	Animate	C_AmmoIcon 					alpha		"172"		Linear 1.0 0.5
-	Animate	AmmoNoClip 	 				alpha		"172"		Linear 1.0 0.5
-	Animate	AmmoInClip 	 				alpha		"172"		Linear 1.0 0.5
-	Animate	AmmoInReserve 				alpha		"172"		Linear 1.0 0.5
+	Animate	C_AmmoIcon 					alpha		"190"		Linear 1.0 0.5
+	Animate	AmmoNoClip 	 				alpha		"190"		Linear 1.0 0.5
+	Animate	AmmoInClip 	 				alpha		"190"		Linear 1.0 0.5
+	Animate	AmmoInReserve 				alpha		"190"		Linear 1.0 0.5
 }
 
 event HudLowAmmoPulseStop
@@ -68,8 +68,8 @@ event HudLowAmmoPulseStop
 	Animate	AmmoInClip 					alpha		"255"		Linear 0.0 0.0
 	Animate	AmmoInReserve 				alpha		"255"		Linear 0.0 0.0
 	
-	Animate	C_AmmoIcon 					alpha		"172"		Linear 1.0 0.5
-	Animate	AmmoNoClip 	 				alpha		"172"		Linear 1.0 0.5
-	Animate	AmmoInClip 	 				alpha		"172"		Linear 1.0 0.5
-	Animate	AmmoInReserve 				alpha		"172"		Linear 1.0 0.5
+	Animate	C_AmmoIcon 					alpha		"190"		Linear 1.0 0.5
+	Animate	AmmoNoClip 	 				alpha		"190"		Linear 1.0 0.5
+	Animate	AmmoInClip 	 				alpha		"190"		Linear 1.0 0.5
+	Animate	AmmoInReserve 				alpha		"190"		Linear 1.0 0.5
 }
