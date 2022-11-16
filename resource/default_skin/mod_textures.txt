@@ -2,6 +2,32 @@
 {
 	TextureData
 	{
+		"obj_status_upgrade_1"
+		{
+			"file"	"HUD/hud_upgrade_1"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		"obj_status_upgrade_2"
+		{
+			"file"	"HUD/hud_upgrade_2"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		"obj_status_upgrade_3"
+		{
+			"file"	"HUD/hud_upgrade_3"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+	
+	
 		"C_Health"
 		{
 			"file"	"vgui/replay/thumbnails/hud/640hud7"
@@ -19,6 +45,24 @@
 			"height"	"24"
 		}
 		
+		"C_Uranium"
+		{
+			"file"	"vgui/replay/thumbnails/hud/640hud7"
+			"x"		"0"
+			"y"		"96"
+			"width"		"24"
+			"height"	"24"
+		}
+		
+		"C_Satchel"
+		{
+			"file"	"vgui/replay/thumbnails/hud/640hud7"
+			"x"		"72"
+			"y"		"97"
+			"width"		"24"
+			"height"	"24"
+		}
+		
 		"C_Divider"
 		{
 			"file"	"vgui/replay/thumbnails/hud/640hud7"
@@ -26,6 +70,15 @@
 			"y"		"0"
 			"width"		"2"
 			"height"	"40"
+		}
+		
+		"C_Lightning"
+		{
+			"file"	"vgui/replay/thumbnails/hud/uber"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
 		}
 	}
 }

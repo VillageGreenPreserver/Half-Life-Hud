@@ -99,6 +99,94 @@ Scheme
 		
 		//==========Trebuchet============
 		
+		"C_Trebuchet8"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet9"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet10"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet11"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet12"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet13"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"13"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet14"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet15"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"15"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		
 		"C_Trebuchet16"
 		{
 			"1"

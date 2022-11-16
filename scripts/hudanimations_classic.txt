@@ -73,3 +73,27 @@ event HudLowAmmoPulseStop
 	Animate	AmmoInClip 	 				alpha		"190"		Linear 1.0 0.5
 	Animate	AmmoInReserve 				alpha		"190"		Linear 1.0 0.5
 }
+
+//==========================
+
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	Alpha		"255"		Linear 0.0 0.1
+	Animate	ChargeLabel 	Alpha		"190"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 	Alpha		"190"		Linear 0.0 0.0001
+}

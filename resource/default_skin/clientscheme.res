@@ -24,6 +24,29 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"C_HudNumbersSmall"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		
+		"C_HudNumbersSmallMinmode"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 	}
 	
 	"Colors"
