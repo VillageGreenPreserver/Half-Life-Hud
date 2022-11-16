@@ -53,5 +53,11 @@ Scheme
 	{
 		"C_HudNumbersDefault"	"255 170 0 255"
 		"C_HudNumbersLow"		"255 0 0 255"
+		
+		// Building HUD Specific
+		"LowHealthRed"		"255 0 0 255"
+		"ProgressOffWhite"	"255 170 0 255"
+		"ProgressBackground"	"250 234 201 51"
+		"HealthBgGrey"		"72 71 69 255"
 	}
 }

@@ -4,27 +4,27 @@
 	{
 		"obj_status_upgrade_1"
 		{
-			"file"	"HUD/hud_upgrade_1"
+			"file"	"vgui/replay/thumbnails/hud/building_level"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"128"
+			"height"	"32"
 		}
 		"obj_status_upgrade_2"
 		{
-			"file"	"HUD/hud_upgrade_2"
+			"file"	"vgui/replay/thumbnails/hud/building_level"
 			"x"		"0"
-			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"y"		"32"
+			"width"		"128"
+			"height"	"32"
 		}
 		"obj_status_upgrade_3"
 		{
-			"file"	"HUD/hud_upgrade_3"
+			"file"	"vgui/replay/thumbnails/hud/building_level"
 			"x"		"0"
-			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"y"		"64"
+			"width"		"128"
+			"height"	"32"
 		}
 	
 	
