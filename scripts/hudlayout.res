@@ -309,15 +309,23 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"f0"
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+		
+		"Background"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Background"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"10"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"	
+		}
 	}
 	
 	HudMannVsMachineStatus
