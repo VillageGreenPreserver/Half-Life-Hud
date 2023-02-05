@@ -1,4 +1,4 @@
-#base "../customizations/skins/enabled/shephard/mod_textures.txt"
+#base "../cfg/hl_modtextures.txt"
 
 #base "../resource/default_skin/mod_textures.txt"
 
@@ -1532,38 +1532,38 @@
 		
 		"obj_status_sentrygun_1"
 		{
-			"file"	"HUD/hud_obj_status_sentry_1"
-			"x"		"0"
-			"y"		"0"
-			"width"		"128"
-			"height"	"128"
+			"file"	"vgui/replay/thumbnails/engineer/bg"
+			"x"		"45"
+			"y"		"90"
+			"width"		"45"
+			"height"	"45"
 		}
 		
 		"obj_status_sentrygun_2"
 		{
-			"file"	"HUD/hud_obj_status_sentry_2"
-			"x"		"0"
-			"y"		"0"
-			"width"		"128"
-			"height"	"128"
+			"file"	"vgui/replay/thumbnails/engineer/bg"
+			"x"		"45"
+			"y"		"135"
+			"width"		"45"
+			"height"	"45"
 		}
 		
 		"obj_status_sentrygun_3"
 		{
-			"file"	"HUD/hud_obj_status_sentry_3"
-			"x"		"0"
-			"y"		"0"
-			"width"		"128"
-			"height"	"128"
+			"file"	"vgui/replay/thumbnails/engineer/bg"
+			"x"		"45"
+			"y"		"180"
+			"width"		"45"
+			"height"	"45"
 		}
 		
 		"obj_status_dispenser"
 		{
-			"file"	"HUD/hud_obj_status_dispenser"
-			"x"		"0"
-			"y"		"0"
-			"width"		"128"
-			"height"	"128"
+			"file"	"vgui/replay/thumbnails/engineer/bg"
+			"x"		"90"
+			"y"		"90"
+			"width"		"45"
+			"height"	"45"
 		}
 
 		"obj_weapon_pickup"
@@ -1578,27 +1578,27 @@
 	
 		"obj_status_tele_entrance"
 		{
-			"file"	"HUD/hud_obj_status_tele_entrance"
+			"file"	"vgui/replay/thumbnails/engineer/bg"
 			"x"		"0"
-			"y"		"0"
-			"width"		"128"
-			"height"	"128"
+			"y"		"135"
+			"width"		"45"
+			"height"	"45"
 		}
 		"obj_status_tele_exit"
 		{
-			"file"	"HUD/hud_obj_status_tele_exit"
+			"file"	"vgui/replay/thumbnails/engineer/bg"
 			"x"		"0"
-			"y"		"0"
-			"width"		"128"
-			"height"	"128"
+			"y"		"180"
+			"width"		"45"
+			"height"	"45"
 		}
 		
 		
 		"obj_status_sapper"
 		{
-			"file"	"HUD/hud_obj_status_sapper"
-			"x"		"0"
-			"y"		"0"
+			"file"	"vgui/replay/thumbnails/engineer/bg"
+			"x"		"90"
+			"y"		"135"
 			"width"		"64"
 			"height"	"64"
 		}
@@ -1632,56 +1632,56 @@
 				
 		"obj_status_background_blue"
 		{
-			"file"		"HUD/eng_status_area_tele_blue"
-			"x"			"0"
-			"y"			"0"
-			"width"		"243"
-			"height"	"64"
+			"file"		"vgui/replay/thumbnails/engineer/bg"
+			"x"		"0"
+			"y"		"45"
+			"width"		"120"
+			"height"	"45"
 		}
 
 		"obj_status_background_red"
 		{
-			"file"		"HUD/eng_status_area_tele_red"
-			"x"			"0"
-			"y"			"0"
-			"width"		"243"
-			"height"	"64"
+			"file"		"vgui/replay/thumbnails/engineer/bg"
+			"x"		"0"
+			"y"		"45"
+			"width"		"120"
+			"height"	"45"
 		}
 		
 		"obj_status_background_disabled"
 		{
-			"file"		"HUD/eng_status_area_tele_disabled"
-			"x"			"0"
-			"y"			"0"
-			"width"		"243"
-			"height"	"64"
+			"file"		"vgui/replay/thumbnails/engineer/bg"
+			"x"		"0"
+			"y"		"0"
+			"width"		"120"
+			"height"	"44"
 		}
 
 		"obj_status_background_tall_blue"	
 		{
-			"file"		"HUD/eng_status_area_sentry_blue"
+			"file"		"vgui/replay/thumbnails/engineer/bg"
 			"x"		"0"
-			"y"		"0"
-			"width"		"243"
-			"height"	"110"
+			"y"		"45"
+			"width"		"120"
+			"height"	"45"
 		}
 
 		"obj_status_background_tall_red"	
 		{
-			"file"		"HUD/eng_status_area_sentry_red"
+			"file"		"vgui/replay/thumbnails/engineer/bg"
 			"x"		"0"
-			"y"		"0"
-			"width"		"243"
-			"height"	"110"
+			"y"		"45"
+			"width"		"120"
+			"height"	"45"
 		}
 		
 		"obj_status_background_tall_disabled"
 		{
-			"file"		"HUD/eng_status_area_sentry_disabled"
+			"file"		"vgui/replay/thumbnails/engineer/bg"
 			"x"			"0"
 			"y"			"0"
-			"width"		"243"
-			"height"	"110"
+			"width"		"120"
+			"height"	"44"
 		}
 		
 		"cappoint_progressbar_blocked"
@@ -1704,20 +1704,20 @@
 
 		"obj_status_alert_background"
 		{
-			"file"		"HUD/eng_status_area_tele_alrt"
+			"file"		"vgui/replay/thumbnails/engineer/bg"
 			"x"			"0"
-			"y"			"0"
-			"width"		"80"
-			"height"	"64"
+			"y"			"90"
+			"width"		"45"
+			"height"	"45"
 		}
 		
 		"obj_status_alert_background_tall"
 		{
-			"file"		"HUD/eng_status_area_sentry_alrt"
-			"x"			"0"
+			"file"		"vgui/replay/thumbnails/engineer/bg"
+			"x"			"120"
 			"y"			"0"
-			"width"		"80"
-			"height"	"110"
+			"width"		"46"
+			"height"	"45"
 		}
 		
 		"obj_status_alert_background_tall_nocolor"

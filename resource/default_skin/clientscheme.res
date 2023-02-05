@@ -30,10 +30,10 @@ Scheme
 			"1"
 			{
 				"name"		"Trebuchet MS"
-				"tall"		"25"
+				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
-				"blur"		"1"
+				"blur"		"0"
 			}
 		}
 		
@@ -42,7 +42,7 @@ Scheme
 			"1"
 			{
 				"name"		"Trebuchet MS"
-				"tall"		"12"
+				"tall"		"8"
 				"weight"	"500"
 				"antialias"	"1"
 			}

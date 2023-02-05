@@ -6,9 +6,6 @@
 #base "scheme/fonts_hl.res"
 #base "scheme/basesettings.res"
 
-#base "../customizations/skins/enabled/shephard/clientscheme.res"
-#base "../customizations/skins/enabled/calhoun/clientscheme.res"
-#base "../customizations/skins/enabled/cross/clientscheme.res"
-#base "../customizations/skins/enabled/green/clientscheme.res"
+#base "../cfg/hl_clientscheme.txt"
 
 #base "default_skin/clientscheme.res"

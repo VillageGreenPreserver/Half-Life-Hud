@@ -1,4 +1,4 @@
-#base "../../customizations/menubackground.res"
+#base "mainmenuoverride_background.res"
 #base "mainmenuoverride_buttons.res"
 #base "mainmenuoverride_safemode.res"
 #base "mainmenuoverride_motd.res"

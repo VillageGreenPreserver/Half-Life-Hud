@@ -32,10 +32,10 @@ Scheme
 			"1"
 			{
 				"name"		"OCR-A"
-				"tall"		"25"
+				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
-				"blur"		"1"
+				"blur"		"0"
 				"scanlines"	"1"
 			}
 		}
@@ -45,7 +45,7 @@ Scheme
 			"1"
 			{
 				"name"		"OCR-A"
-				"tall"		"12"
+				"tall"		"7"
 				"weight"	"500"
 				"antialias"	"1"
 				"scanlines"	"1"
