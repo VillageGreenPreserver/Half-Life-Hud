@@ -2,6 +2,57 @@
 {
 	TextureData
 	{
+		"obj_status_upgrade_1"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_shephard"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"32"
+		}
+		"obj_status_upgrade_2"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_shephard"
+			"x"		"0"
+			"y"		"32"
+			"width"		"128"
+			"height"	"32"
+		}
+		"obj_status_upgrade_3"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_shephard"
+			"x"		"0"
+			"y"		"64"
+			"width"		"128"
+			"height"	"32"
+		}
+		
+		"obj_status_upgrade_1_minmode"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_minmode_shephard"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"32"
+		}
+		"obj_status_upgrade_2_minmode"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_minmode_shephard"
+			"x"		"0"
+			"y"		"32"
+			"width"		"128"
+			"height"	"32"
+		}
+		"obj_status_upgrade_3_minmode"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_minmode_shephard"
+			"x"		"0"
+			"y"		"64"
+			"width"		"128"
+			"height"	"32"
+		}
+		
+		
 		"C_Health"
 		{
 			"file"	"vgui/replay/thumbnails/hud/640hud7_opfor"

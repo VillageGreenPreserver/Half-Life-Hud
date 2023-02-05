@@ -32,7 +32,7 @@ Scheme
 			"1"
 			{
 				"name"		"OCR-A"
-				"tall"		"14"
+				"tall"		"25"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
@@ -45,7 +45,7 @@ Scheme
 			"1"
 			{
 				"name"		"OCR-A"
-				"tall"		"9"
+				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
 				"scanlines"	"1"
@@ -56,5 +56,11 @@ Scheme
 	"Colors"
 	{
 		"C_HudNumbersDefault"	"32 255 32 255"
+		
+		// Building HUD Specific
+		"LowHealthRed"		"255 0 0 255"
+		"ProgressOffWhite"	"32 255 32 190"
+		"ProgressBackground"	"250 234 201 0"
+		"HealthBgGrey"		"72 71 69 0"
 	}
 }

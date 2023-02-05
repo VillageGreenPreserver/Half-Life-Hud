@@ -26,6 +26,31 @@
 			"width"		"128"
 			"height"	"32"
 		}
+		
+		"obj_status_upgrade_1_minmode"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_minmode"
+			"x"		"0"
+			"y"		"0"
+			"width"		"128"
+			"height"	"32"
+		}
+		"obj_status_upgrade_2_minmode"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_minmode"
+			"x"		"0"
+			"y"		"32"
+			"width"		"128"
+			"height"	"32"
+		}
+		"obj_status_upgrade_3_minmode"
+		{
+			"file"	"vgui/replay/thumbnails/hud/building_level_minmode"
+			"x"		"0"
+			"y"		"64"
+			"width"		"128"
+			"height"	"32"
+		}
 	
 	
 		"C_Health"
@@ -75,6 +100,15 @@
 		"C_Lightning"
 		{
 			"file"	"vgui/replay/thumbnails/hud/uber"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		
+		"C_Alert"
+		{
+			"file"	"vgui/replay/thumbnails/hud/alert"
 			"x"		"0"
 			"y"		"0"
 			"width"		"32"
