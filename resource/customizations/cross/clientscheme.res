@@ -4,6 +4,9 @@ Scheme
 	{
 		"C_HudNumbersDefault"	"200 200 200 255"
 		
+		"C_HudNumbersDisabled"	"100 100 100 255"
+		
+		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
 		"ProgressOffWhite"	"200 200 200 255"

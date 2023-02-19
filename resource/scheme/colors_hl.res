@@ -5,7 +5,6 @@ Scheme
 		"C_MenuButtonDefault"	"200 200 200 255"
 		"C_MenuButtonArmed"		"255 255 255 255"
 		
-		
 		//=========Fake Source Scheme Stuff===========
 		"C_Src_TextColor"			"255 255 255 255"
 		"C_Src_DefaultTextColor"	"215 221 210 255"

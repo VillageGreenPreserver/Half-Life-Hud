@@ -77,6 +77,16 @@ Scheme
 			}
 		}
 		
+		"C_Tahoma10-Bold"
+		{
+			"1"
+			{
+				"name"		"Tahoma Bold"
+				"tall"		"10"
+				"weight"	"0"
+			}
+		}
+		
 		"C_Tahoma12"
 		{
 			"1"
@@ -84,6 +94,16 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"0"
+			}
+		}
+		
+		"C_Tahoma14"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"14"
+				"weight"	"300"
 			}
 		}
 		
