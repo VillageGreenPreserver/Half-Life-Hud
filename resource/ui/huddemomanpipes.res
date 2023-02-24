@@ -38,9 +38,7 @@
 		"tall_minmode"			"26"
 		"wide_minmode"			"52"
 		
-		"alpha"					"255"
-		
-		"fgcolor_override"		"255 0 0 255"
+		"alpha"					"190"
 	}
 
 	"ChargeMeter"
