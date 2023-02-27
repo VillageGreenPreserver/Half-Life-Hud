@@ -4,13 +4,14 @@
 {	
 	HudItemEffectMeter
 	{
-		"ypos"	"-24"
-		"ypos_minmode"	"-18"
+		"ypos"	"-14"
+		"x_offset"	"0"
+		"ypos_minmode"	"-11"
 	}
 	
 	"ItemEffectMeterLabel2"
 	{
-		"labeltext"	"CRITS:"
+		"labeltext"	"HEADS:"
 	}
 
 }

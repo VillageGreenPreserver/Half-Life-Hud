@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/hud/lightning"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+}

@@ -97,7 +97,7 @@
 			"height"	"40"
 		}
 		
-		"C_Lightning"
+		"C_Uber"
 		{
 			"file"	"vgui/replay/thumbnails/hud/uber"
 			"x"		"0"
@@ -106,9 +106,27 @@
 			"height"	"32"
 		}
 		
+		"C_Lightning"
+		{
+			"file"	"vgui/replay/thumbnails/hud/640hud8"
+			"x"		"192"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+		
 		"C_Alert"
 		{
 			"file"	"vgui/replay/thumbnails/hud/alert"
+			"x"		"0"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		
+		"C_KS"
+		{
+			"file"	"vgui/replay/thumbnails/hud/ks"
 			"x"		"0"
 			"y"		"0"
 			"width"		"32"

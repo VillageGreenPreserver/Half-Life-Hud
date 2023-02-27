@@ -57,6 +57,17 @@ Scheme
 			}
 		}
 		
+		"C_Tahoma8-Bold-Dropshadow"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"8"
+				"weight"	"800"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"C_Tahoma9"
 		{
 			"1"
@@ -84,6 +95,17 @@ Scheme
 				"name"		"Tahoma Bold"
 				"tall"		"10"
 				"weight"	"0"
+			}
+		}
+		
+		"C_Tahoma10-Bold-Dropshadow"
+		{
+			"1"
+			{
+				"name"		"Tahoma Bold"
+				"tall"		"10"
+				"weight"	"0"
+				"dropshadow"	"1"
 			}
 		}
 		

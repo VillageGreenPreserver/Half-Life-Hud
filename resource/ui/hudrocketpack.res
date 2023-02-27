@@ -42,7 +42,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"C_HudNumbersSmall"
-		"font_minmode"					"C_HudNumbersSmallMinmode"
+		"font_minmode"			"C_HudNumbersSmallMinmode"
 		"fgcolor_override"		"C_HudNumbersDefault"
 		"alpha"					"190"
 		
@@ -57,6 +57,12 @@
 		"xpos"	"rs1-47"
 		"wide"	"19"
 		"xpos_minmode"	"rs1-25"
+		"wide_minmode"	"11"
+	}
+
+	"ItemEffectMeterTint"
+	{
+		"wide"	"19"
 		"wide_minmode"	"11"
 	}
 
@@ -83,4 +89,27 @@
 		"tall_minmode"			"1"
 		"wide_minmode"			"11"
 	}
+
+	"ItemEffectMeter2Tint"
+	{	
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ItemEffectMeter2Tint"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"19"
+		"tall"					"2"	
+		"visible"				"1"
+		"enabled"				"1"
+		
+		"bgcolor_override"		"c_hudnumbersdefault"
+		"alpha"					"150"
+		
+		"tall_minmode"			"1"
+		"wide_minmode"			"11"
+		
+		"pin_to_sibling"	"ItemEffectMeter2"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
+	}	
 }

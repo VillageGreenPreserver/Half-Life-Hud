@@ -94,15 +94,15 @@
 		"wide"			"24"
 		"tall"			"24"
 		
-		"xpos_minmode"			"rs1-8"
-		"ypos_minmode"			"rs1-7"
-		"wide_minmode"			"10"
-		"tall_minmode"			"10"
+		"xpos_minmode"			"rs1-7"
+		"ypos_minmode"			"rs1-6"
+		"wide_minmode"			"11"
+		"tall_minmode"			"11"
 		
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"C_Lightning"
+		"icon"			"C_Uber"
 		"iconColor"		"C_HudNumbersDefault"
 		
 		"alpha"			"190"
@@ -180,19 +180,36 @@
 		"enabled"		"0"	
 	}	
 	
+	"ResistAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ResistAnchor"
+		"xpos"			"rs1-14"
+		"ypos"			"rs1-14"
+		"wide"			"o1"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"	
+	}	
+	
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ResistIcon"
 		"xpos"			"0"
-		"ypos"			"-25"
-		"wide"			"36"
-		"tall"			"36"
+		"ypos"			"0"
+		"wide"			"o1"
+		"tall"			"24"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
+		"drawcolor"		"c_hudnumbersdefault"	
 		"scaleImage"	"1"	
+		
+		"pin_to_sibling"	"ResistAnchor"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 	
 }

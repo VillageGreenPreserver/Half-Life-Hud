@@ -64,6 +64,8 @@
 		"icon"			"C_Health"
 		"iconColor"		"C_HudNumbersDefault"
 		
+		"bgcolor_override"	"0 0 0 0"
+		
 		"alpha"			"190"
 	}
 	

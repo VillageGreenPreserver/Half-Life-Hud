@@ -16,6 +16,7 @@ event HudHealthDyingPulse
 {
 	Animate	C_HealthIcon 				iconcolor	"C_HudNumbersLow"		Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue 	fgcolor		"C_HudNumbersLow"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	labeltext		"C_HudNumbersLow"		Linear 0.0 0.0
 	
 	Animate	C_HealthIcon 				alpha		"255"		Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue 	alpha		"255"		Linear 0.0 0.0

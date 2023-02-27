@@ -84,5 +84,28 @@
 		"xpos_minmode"			"rs1-12"
 		"tall_minmode"			"1"
 		"wide_minmode"			"24"
+	}	
+
+	"ItemEffectMeterTint"
+	{	
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ItemEffectMeterTint"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"40"
+		"tall"					"2"	
+		"visible"				"1"
+		"enabled"				"1"
+		
+		"bgcolor_override"		"c_hudnumbersdefault"
+		"alpha"					"150"
+		
+		"tall_minmode"			"1"
+		"wide_minmode"			"24"
+		
+		"pin_to_sibling"	"ItemEffectMeter"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}					
 }

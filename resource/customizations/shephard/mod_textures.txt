@@ -97,6 +97,15 @@
 			"height"	"40"
 		}
 		
+		"C_Uber"
+		{
+			"file"	"vgui/replay/thumbnails/hud/uber"
+			"x"		"32"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
+		}
+		
 		"C_Lightning"
 		{
 			"file"	"vgui/replay/thumbnails/hud/640hud8_opfor"
@@ -104,6 +113,15 @@
 			"y"		"0"
 			"width"		"64"
 			"height"	"64"
+		}
+		
+		"C_KS"
+		{
+			"file"	"vgui/replay/thumbnails/hud/ks"
+			"x"		"32"
+			"y"		"0"
+			"width"		"32"
+			"height"	"32"
 		}
 	}
 }

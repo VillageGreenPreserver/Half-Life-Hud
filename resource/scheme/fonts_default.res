@@ -1859,13 +1859,12 @@ Scheme
 		}
 		"ItemFontNameLarge"
 		{
+			
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"12"
+				"name"		"Tahoma Bold"
+				"tall"		"10"
 				"weight"	"0"
-				"additive"	"0"
-				"antialias" "0"
 			}
 		}
 		"ItemFontNameLarger"
