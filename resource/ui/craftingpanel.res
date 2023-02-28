@@ -1,6 +1,5 @@
-#base "../../customizations/aspect_ratio/enabled/16x9/craftingpanel.res"
-#base "../../customizations/aspect_ratio/enabled/16x10/craftingpanel.res"
-#base "../../customizations/aspect_ratio/enabled/4x3/craftingpanel.res"
+#base "../../cfg/hl_ar_craftingpanel.txt"
+#base "../customizations/aspect_ratio/16x9/craftingpanel.res"
 
 "Resource/UI/CraftingPanel.res"
 {

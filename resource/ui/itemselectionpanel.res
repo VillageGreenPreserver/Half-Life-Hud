@@ -1,6 +1,5 @@
-#base "../../customizations/aspect_ratio/enabled/16x9/itemselectionpanel.res"
-#base "../../customizations/aspect_ratio/enabled/16x10/itemselectionpanel.res"
-#base "../../customizations/aspect_ratio/enabled/4x3/itemselectionpanel.res"
+#base "../../cfg/hl_ar_itemselectionpanel.txt"
+#base "../customizations/aspect_ratio/16x9/itemselectionpanel.res"
 
 "Resource/UI/ItemSelectionPanel.res"
 {

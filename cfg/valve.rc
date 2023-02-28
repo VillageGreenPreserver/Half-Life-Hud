@@ -25,3 +25,5 @@ wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; w
 exec quote.cfg
 
 exec customizations.cfg
+cl_hud_playerclass_use_playermodel 0
+alias demo_fix "record fix; stop"

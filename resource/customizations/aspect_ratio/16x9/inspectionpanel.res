@@ -1,11 +1,5 @@
 "Resource/UI/FullLoadoutPanel.res"
 {
-	"Background"
-	{
-		"xpos"			"125"
-		"wide"			"f250"
-		"tall"			"312"
-	}
 	
 	"C_ModelBG"
 	{
@@ -17,6 +11,13 @@
 	{
 		"wide"			"f263"
 		"tall"			"298"
+	}
+	
+	"Background"
+	{
+		"xpos"			"125"
+		"wide"			"f250"
+		"tall"			"312"
 	}
 	
 	"ModelInspectionPanel"

@@ -190,6 +190,10 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"	
+		
+		"xpos_minmode"			"rs1-7"
+		"ypos_minmode"			"rs1-7"
+		"tall_minmode"			"10"
 	}	
 	
 	"ResistIcon"
@@ -206,6 +210,8 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"drawcolor"		"c_hudnumbersdefault"	
 		"scaleImage"	"1"	
+		"wide_minmode"			"10"
+		"tall_minmode"			"10"
 		
 		"pin_to_sibling"	"ResistAnchor"
 		"pin_corner_to_sibling"	"0"

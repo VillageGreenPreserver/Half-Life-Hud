@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma Bold"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -24,7 +24,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma Bold"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -33,41 +33,41 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma Bold"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
-				"antialias"	"1"
+				"antialias"	"0"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma Bold"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
-				"antialias"	"1"
+				"antialias"	"0"	
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma Bold"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
-				"antialias"	"1"
+				"antialias"	"0"
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma Bold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Tahoma Bold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -152,7 +152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -160,7 +160,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -168,30 +168,30 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
-				"antialias"	"1"
+				"antialias"	"0"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
-				"antialias"	"1"
+				"antialias"	"0"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
-				"antialias"	"1"
+				"antialias"	"0"
 			}
 		}
 		DefaultLarge

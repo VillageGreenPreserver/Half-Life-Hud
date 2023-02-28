@@ -7,5 +7,4 @@
 #base "scheme/basesettings.res"
 
 #base "../cfg/hl_clientscheme.txt"
-
 #base "default_skin/clientscheme.res"

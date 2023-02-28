@@ -5,7 +5,7 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r614"
+		"xpos"	 "r616"
 		"ypos"	 "32"
 		"ypos_minmode"	 "14"
 		"wide"	 "628"

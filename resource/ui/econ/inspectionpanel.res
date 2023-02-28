@@ -1,6 +1,5 @@
-#base "../../../customizations/aspect_ratio/enabled/16x9/inspectionpanel.res"
-#base "../../../customizations/aspect_ratio/enabled/16x10/inspectionpanel.res"
-#base "../../../customizations/aspect_ratio/enabled/4x3/inspectionpanel.res"
+#base "../../../cfg/hl_ar_inspectionpanel.txt"
+#base "../../customizations/aspect_ratio/16x9/inspectionpanel.res"
 
 "Resource/UI/econ/QuestEditorPanel.res"
 {

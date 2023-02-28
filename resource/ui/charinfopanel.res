@@ -1,6 +1,5 @@
-#base "../../customizations/aspect_ratio/enabled/16x9/charinfopanel.res"
-#base "../../customizations/aspect_ratio/enabled/16x10/charinfopanel.res"
-#base "../../customizations/aspect_ratio/enabled/4x3/charinfopanel.res"
+#base "../../cfg/hl_ar_charinfopanel.txt"
+#base "../customizations/aspect_ratio/16x9/charinfopanel.res"
 
 "Resource/UI/CharInfoPanel.res"
 {

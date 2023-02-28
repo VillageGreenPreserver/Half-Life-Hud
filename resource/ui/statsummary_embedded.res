@@ -1,6 +1,5 @@
-#base "../../customizations/aspect_ratio/enabled/16x9/statsummary_embedded.res"
-#base "../../customizations/aspect_ratio/enabled/16x10/statsummary_embedded.res"
-#base "../../customizations/aspect_ratio/enabled/4x3/statsummary_embedded.res"
+#base "../../cfg/hl_ar_statsummary_embedded.txt"
+#base "../customizations/aspect_ratio/16x9/statsummary_embedded.res"
 
 "Resource/UI/winpanel.res"
 {

@@ -14,7 +14,7 @@
 			"text_ypos"			"54"
 		}
 	}
-
+	
 	"Background"
 	{
 		"xpos"			"125"

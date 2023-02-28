@@ -139,6 +139,16 @@ Scheme
 			}
 		}
 		
+		"C_Tahoma16-Bold"
+		{
+			"1"
+			{
+				"name"		"Tahoma Bold"
+				"tall"		"16"
+				"weight"	"500"
+			}
+		}
+		
 		//==========Trebuchet============
 		
 		"C_Trebuchet8"

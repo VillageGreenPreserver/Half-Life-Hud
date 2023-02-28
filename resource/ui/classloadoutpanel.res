@@ -1,6 +1,5 @@
-#base "../../customizations/aspect_ratio/enabled/16x9/classloadoutpanel.res"
-#base "../../customizations/aspect_ratio/enabled/16x10/classloadoutpanel.res"
-#base "../../customizations/aspect_ratio/enabled/4x3/classloadoutpanel.res"
+#base "../../cfg/hl_ar_classloadoutpanel.txt"
+#base "../customizations/aspect_ratio/16x9/classloadoutpanel.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {

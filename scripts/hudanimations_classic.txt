@@ -98,3 +98,10 @@ event HudMedicChargedStop
 	
 	Animate	ChargeLabel 	Alpha		"190"		Linear 0.0 0.0001
 }
+
+//============================
+
+event HudSpyDisguiseChanged
+{
+
+}

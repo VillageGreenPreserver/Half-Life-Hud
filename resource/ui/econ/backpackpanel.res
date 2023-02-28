@@ -1,6 +1,5 @@
-#base "../../../customizations/aspect_ratio/enabled/16x9/backpackpanel.res"
-#base "../../../customizations/aspect_ratio/enabled/16x10/backpackpanel.res"
-#base "../../../customizations/aspect_ratio/enabled/4x3/backpackpanel.res"
+#base "../../../cfg/hl_ar_backpackpanel.txt"
+#base "../../customizations/aspect_ratio/16x9/backpackpanel.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {
