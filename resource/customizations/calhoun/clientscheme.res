@@ -3,6 +3,7 @@ Scheme
 	"Colors"
 	{
 		"C_HudNumbersDefault"	"128 128 255 255"
+		"C_HudNumbersDefault_16"	"128 128 255 16"
 		
 		"C_HudNumbersDisabled"	"200 200 200 255"
 		
