@@ -183,6 +183,18 @@ Scheme
 			}
 		}
 		
+		"C_Trebuchet8-Additive"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias"	"1"
+				"additive"	"1"
+			}
+		}
+		
 		"C_Trebuchet9"
 		{
 			"1"
@@ -205,6 +217,18 @@ Scheme
 			}
 		}
 		
+		"C_Trebuchet10-Additive"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias"	"1"
+				"additive"	"1"
+			}
+		}
+		
 		"C_Trebuchet11"
 		{
 			"1"
@@ -224,6 +248,18 @@ Scheme
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet12-Additive"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+				"additive"	"1"
 			}
 		}
 		
@@ -268,6 +304,18 @@ Scheme
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
+			}
+		}
+		
+		"C_Trebuchet16-Additive"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
+				"additive"	"1"
 			}
 		}
 		
@@ -450,6 +498,11 @@ Scheme
 		{
 			"font" "resource/fonts/OCR-A Regular.ttf"
 			"name" "OCR-A"
+		}
+		"9"
+		{
+			"font" "resource/fonts/OCRAEXT.ttf"
+			"name" "OCR A Extended"
 		}
 	}
 }

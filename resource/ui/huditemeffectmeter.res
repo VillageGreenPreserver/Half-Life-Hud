@@ -40,7 +40,7 @@
 		"xpos"					"rs1-26"
 		"ypos"					"rs1-46"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"60"
 		"tall"					"12"
 		"autoResize"			"1"
 		"pinCorner"				"2"

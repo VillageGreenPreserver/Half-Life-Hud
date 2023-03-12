@@ -236,13 +236,13 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"xpos"		"0"
+		"ypos"		"c24"
+		"wide"	 	"0"
+		"tall"	 	"24"
 		"priority"	"40"
-		"priority_lodef"	"5"
+		
+		"tall_minmode"	 	"20"
 
 		if_vr
 		{
@@ -256,13 +256,15 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
+		"xpos"		"0"
+		"zpos"		"1"
+		"ypos"		"r60"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"24"
 		"priority"	"40"
-		"priority_lodef" "35"
+		
+		"tall_minmode"	 	"20"
+		"ypos_minmode"	 	"r24"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -274,11 +276,13 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"c52"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"24"
 		"priority"	"35"
+		
+		"tall_minmode"	 	"20"
+		"ypos_minmode"	 	"c48"
 
 		if_vr
 		{
@@ -777,16 +781,16 @@
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
-		"xpos"					"0"
-		"ypos"					"410"
+		"xpos"					"c-5"
+		"ypos"					"rs10"
 		"wide"					"f0"
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"separator_height"		"0"
+		"height_offset"			"7"
+		"height_offset_minmode"			"4"
 	}
 
 	HudCapturePanel
@@ -816,10 +820,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}

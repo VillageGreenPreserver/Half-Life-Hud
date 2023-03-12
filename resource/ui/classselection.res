@@ -890,7 +890,7 @@
 			
 		"bgcolor_override"			"blank"
 		"defaultbgColor_override" "blank"
-		"armedbgColor_override" "blank"
+		"armedbgColor_override" "c_orange_16"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "c_orange_16"
 		

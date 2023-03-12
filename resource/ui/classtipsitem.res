@@ -39,7 +39,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"font"			"C_Tahoma10"
+			"font"			"C_Tahoma8"
 			"autoResize"	"3"
 			"pinCorner"		"1"
 			"textAlignment"	"north-west"

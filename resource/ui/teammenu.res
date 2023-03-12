@@ -1,23 +1,5 @@
 "Resource/UI/TeamMenu.res"
 {
-	"BG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"0"
-		"bgcolor_override"	"0 0 0 180"
-	}	
 
 	"team"
 	{
@@ -33,6 +15,26 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintbackground"	"0"
+		"bgcolor_override"	"0 0 0 180"
+	}
+	
+	"BG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"paintbackground"	"1"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"	"0 0 0 180"
 	}
 
 	"SysMenu"
@@ -107,6 +109,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"paintbackgroundtype"	"0"
+		"roundedcorners"		"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
 		"font"			"C_Tahoma10-Bold"
@@ -146,6 +149,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"paintbackgroundtype"	"0"
+		"roundedcorners"		"0"
 		"command"		"jointeam red"
 		"team"				"2"		// team red
 		"associated_model"	"reddoor"	
@@ -220,29 +224,6 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RandomBorder"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"				"p0.1935"
-		"tall"				"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"mouseinputenabled"	"0"
-		"border"		"hl_lineborder_orange"
-		
-		"pin_to_sibling"	"CancelButton2"
-		"pin_to_sibling_corner"	"0"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	"CancelBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"CancelBorder"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -333,9 +314,9 @@
 	
 	"CancelButton" [$WIN32] 
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"CancelButton"
-		"xpos"			"r0"
+		"xpos"			"0"
 		"ypos"			"8"
 		"zpos"			"3"
 		"wide"				"p0.1935"
@@ -345,7 +326,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"0 CANCEL"
+		"labelText"		"#TF_Cancel"
 		"textAlignment"	"west"
 		"useproportionalinsets"		"1"
 		"textinsetx"		"18"
@@ -353,7 +334,14 @@
 		"brighttext"	"0"
 		"command"		"cancelmenu"
 		
-		"paintborder"	"0"
+		"pin_to_sibling"	"teambutton3"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
+		
+		"paintborder"	"1"
+		"border"		"hl_lineborder_orange"
+		"border_default"		"hl_lineborder_orange"
+		"border_armed"		"hl_lineborder_orange"
 		"paintbackgroundtype"	"0"
 		
 		"font"			"C_Tahoma10-Bold"
@@ -371,48 +359,27 @@
 		"selectedbgColor_override" "c_orange_16"
 	}
 	
-	"CancelButton2" [$WIN32] 
+	"CancelBorder"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton2"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CancelBorder"
 		"xpos"			"0"
-		"ypos"			"8"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"				"p0.1935"
 		"tall"				"24"
 		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
+		"pinCorner"		"0"
+		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"0 CANCEL"
-		"textAlignment"	"west"
-		"useproportionalinsets"		"1"
-		"textinsetx"		"18"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"cancelmenu"
+		"mouseinputenabled"	"0"
+		"border"		"hl_lineborder_orange"
 		
-		"paintborder"	"0"
-		"paintbackgroundtype"	"0"
-		
-		"font"			"C_Tahoma10-Bold"
-		
-		"fgcolor"			"c_orange"
-		"defaultFgColor_override" "c_orange"
-		"armedFgColor_override" "255 255 255 255"
-		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "255 255 255 255"
-			
-		"bgcolor_override"			"blank"
-		"defaultbgColor_override" "blank"
-		"armedbgColor_override" "c_orange_16"
-		"depressedbgColor_override" "blank"
-		"selectedbgColor_override" "c_orange_16"
-		
-		"pin_to_sibling"		"teambutton3"
+		"pin_to_sibling"	"CancelButton"
+		"pin_to_sibling_corner"	"0"
 		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"2"
 	}
 	
 	"TeamMenuSelect"

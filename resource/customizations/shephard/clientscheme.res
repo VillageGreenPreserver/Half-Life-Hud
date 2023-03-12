@@ -12,6 +12,7 @@ Scheme
 				"antialias"	"1"
 				"blur"		"1"
 				"scanlines"	"1"
+				"additive"	"1"
 			}
 		}
 		
@@ -24,6 +25,7 @@ Scheme
 				"weight"	"500"
 				"antialias"	"1"
 				"scanlines"	"1"
+				"additive"	"1"
 			}
 		}
 		
@@ -31,12 +33,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR-A"
+				"name"		"OCR A Extended"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"0"
 				"scanlines"	"1"
+				"additive"	"1"
 			}
 		}
 		
@@ -44,11 +47,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"OCR-A"
+				"name"		"OCR A Extended"
 				"tall"		"7"
 				"weight"	"500"
 				"antialias"	"1"
 				"scanlines"	"1"
+				"additive"	"1"
 			}
 		}
 	}

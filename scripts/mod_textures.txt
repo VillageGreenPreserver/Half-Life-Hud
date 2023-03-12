@@ -1650,7 +1650,7 @@
 		
 		"obj_status_background_disabled"
 		{
-			"file"		"vgui/replay/thumbnails/engineer/bg"
+			"file"		"vgui/replay/thumbnails/engineer/bg_black"
 			"x"		"0"
 			"y"		"0"
 			"width"		"120"
@@ -1677,7 +1677,7 @@
 		
 		"obj_status_background_tall_disabled"
 		{
-			"file"		"vgui/replay/thumbnails/engineer/bg"
+			"file"		"vgui/replay/thumbnails/engineer/bg_black"
 			"x"			"0"
 			"y"			"0"
 			"width"		"120"

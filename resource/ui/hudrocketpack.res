@@ -23,21 +23,21 @@
 		"visible"	"0"
 	}
 	
-	"ItemEffectMeterLabel2_WTF"
+	"Label2_WTF"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel2_WTF"
-		"xpos"					"rs1-26"
-		"ypos"					"rs1-46"
+		"ControlName"			"Label"
+		"fieldName"				"Label2_WTF"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"60"
 		"tall"					"12"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"THRUSTER"
+		"labelText"				"JETPACK"
 		"textAlignment"			"south-east"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -46,10 +46,14 @@
 		"fgcolor_override"		"C_HudNumbersDefault"
 		"alpha"					"190"
 		
-		"ypos_minmode"			"rs1-21"
-		"xpos_minmode"			"rs1-12"
+		"pin_to_sibling"	"ItemEffectMeter2"
+		"pin_corner_to_sibling"	"3"
+		"pin_to_sibling_corner"	"1"
+		
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"tall_minmode"			"10"
-		"wide_minmode"			"26"
+		"wide_minmode"			"32"
 	}
 
 	"ItemEffectMeter"

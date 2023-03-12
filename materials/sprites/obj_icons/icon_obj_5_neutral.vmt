@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	$additive 1
+	"$baseTexture" "vgui/replay/thumbnails\obj_icons/cp/neutral"
+	$color "{ 255 170 0}"
+	$alpha 1.0
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+}

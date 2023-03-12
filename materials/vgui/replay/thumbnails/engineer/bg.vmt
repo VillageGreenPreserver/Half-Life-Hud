@@ -6,5 +6,6 @@
 	"$ignorez" 1
 	"%keywords" "tf"
 	"$translucent" 1
+	"$additive" 1
 }
 

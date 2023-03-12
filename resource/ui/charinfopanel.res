@@ -41,7 +41,7 @@
 		"xpos"			"rs1"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"o1.7777"
+		"wide"			"o1.7778"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"

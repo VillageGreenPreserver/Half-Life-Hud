@@ -26,4 +26,5 @@ exec quote.cfg
 
 exec customizations.cfg
 cl_hud_playerclass_use_playermodel 0
+tf_spectator_target_location 0
 alias demo_fix "record fix; stop"

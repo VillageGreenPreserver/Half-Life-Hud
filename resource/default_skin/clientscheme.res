@@ -11,6 +11,7 @@ Scheme
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
+				"additive"		"1"
 			}
 		}
 		
@@ -22,6 +23,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
+				"additive"		"1"
 			}
 		}
 		
@@ -34,6 +36,7 @@ Scheme
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"0"
+				"additive"		"1"
 			}
 		}
 		
@@ -45,6 +48,7 @@ Scheme
 				"tall"		"8"
 				"weight"	"500"
 				"antialias"	"1"
+				"additive"		"1"
 			}
 		}
 	}

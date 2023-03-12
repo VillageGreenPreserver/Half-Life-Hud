@@ -105,3 +105,40 @@ event HudSpyDisguiseChanged
 {
 
 }
+
+//==============================
+event HasNotificationsBlink
+{
+	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonDefault"		Linear 0.0 0.1
+	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonDefault"		Linear 0.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonArmed"			Linear 0.2 0.1
+	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonArmed"			Linear 0.2 0.1
+		
+	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonDefault"		Linear 0.4 0.1
+	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonDefault"		Linear 0.4 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonArmed"			Linear 0.6 0.1
+	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonArmed"			Linear 0.6 0.1
+	
+	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonDefault"		Linear 0.8 0.1
+	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonDefault"		Linear 0.8 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonArmed"			Linear 1.0 0.1
+	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonArmed"			Linear 1.0 0.1
+	
+	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonDefault"		Linear 1.2 0.1
+	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonDefault"		Linear 1.2 0.1
+
+	RunEvent HasNotificationsBlinkLoop		2.0
+}
+
+event HasNotificationsBlinkLoop
+{
+	RunEvent HasNotificationsBlink			0.0
+}
+
+event HasNotificationsBlinkStop
+{
+	StopEvent HasNotificationsBlink				0.0
+	StopEvent HasNotificationsBlinkLoop 		0.0
+	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonDefault"		Linear 0.0 0.1
+	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonDefault"		Linear 0.0 0.1
+}
