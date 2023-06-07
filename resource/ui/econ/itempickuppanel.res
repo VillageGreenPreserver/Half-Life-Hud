@@ -114,7 +114,7 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "0 0 0 0"
 	}
 	
 	"classimage"
