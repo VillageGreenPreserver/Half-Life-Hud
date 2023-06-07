@@ -332,8 +332,9 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"c_src_bgcolor"
 		"PaintBackgroundType"	"0"
+		"PaintBackground"	"1"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -350,6 +351,8 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
+		"border"	"c_src_convex"
+		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -361,9 +364,9 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
-			"ypos"			"3"
+			"font"			"c_tahoma8"
+			"xpos"			"4"
+			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"

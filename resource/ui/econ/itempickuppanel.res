@@ -113,7 +113,7 @@
 		"zpos"			"6"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"bgcolor_override" "0 0 0 255"
 	}
 	
@@ -121,8 +121,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"classimage"
-		"xpos"			"c211"
-		"ypos"			"118"
+		"xpos"			"0"
+		"ypos"			"4"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -130,6 +130,10 @@
 		"enabled"		"1"
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
+		
+		"pin_to_sibling"	"DiscardButton"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"3"
 	}
 	
 	"ItemsFoundLabel"
@@ -257,10 +261,10 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"-3"
+		"xpos"			"-4"
 		"ypos"			"-4"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"56"
 		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -287,7 +291,7 @@
 		"xpos"			"3"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"60"
 		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"2"

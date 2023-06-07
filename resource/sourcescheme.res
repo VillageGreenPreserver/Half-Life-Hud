@@ -33,12 +33,12 @@ Scheme
 	    "Blank"				"0 0 0 0"
 	    
 	    // background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"255 0 0 255"	// background color of any selected text or menu item
+		"ControlBG"			"77 89 70 255"		// background color of controls
+		"ControlDarkBG"		"90 106 81 255"		// darker background color; used for background of scrollbars
+		"WindowBG"			"64 72 58 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"148 135 52 255"	// background color of any selected text or menu item
 		"SelectionBG2"		"44 50 39 255"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		"ListBG"			"64 72 58 255"		// background of server browser, buddy list, etc.
 		
 		"C_Blank"			"0 0 0 0"
 		
@@ -158,6 +158,7 @@ Scheme
 		TextEntry.DisabledTextColor	        "C_DullTextColor"
 		TextEntry.SelectedBgColor	        "C_SelectionBG"
 		TextEntry.SelectedTextColor	        "C_TextColor"
+		TextEntry.BgColor					"C_ListBG"
 	}
 	
 	Borders

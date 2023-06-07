@@ -173,7 +173,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"Cancel"
+			"labelText"		"Close"
 			"font"			"C_Src_Tahoma7"
 			"textAlignment"	"west"
 			"textinsetx"	"6"

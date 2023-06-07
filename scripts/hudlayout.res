@@ -41,10 +41,10 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"0"
 		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
+		"wide"	"f0"
+		"tall"	"480"
 		
 		"blue_active_xpos"			"16"
 		"blue_active_xpos_minmode"	"55"
@@ -789,7 +789,7 @@
 		"enabled"				"1"
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"0"
-		"height_offset"			"7"
+		"height_offset"			"8"
 		"height_offset_minmode"			"4"
 	}
 
@@ -936,7 +936,7 @@
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuEngyBuild"

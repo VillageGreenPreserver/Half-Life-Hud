@@ -142,3 +142,76 @@ event HasNotificationsBlinkStop
 	Animate	Notifications_ShowButtonPanel_SB 	fgcolor		"C_MenuButtonDefault"		Linear 0.0 0.1
 	Animate	Notifications_CountLabel 	fgcolor		"C_MenuButtonDefault"		Linear 0.0 0.1
 }
+
+//--------------------------------------------------------------------------
+event CompetitiveGame_LowerChatWindow
+{
+	
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	
+}
+
+event HudTournament_MoveChatWindow
+{
+	
+}
+
+//--------------------------------------------------------------------------
+//===========================================
+event FlagOutlineHide
+{
+	Animate	YGTF1	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF2	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF3	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF4	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF5	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF6	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF7	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF8	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF9	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF10	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF11	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF12	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF13	Alpha	"0"	Linear 1.0 0.01
+	Animate	YGTF14	Alpha	"0"	Linear 1.0 0.01
+}
+// Local player flag pickup/drop
+event FlagOutline
+{
+	//RunEvent FlagOutlineHide 0.0
+	
+	Animate	YGTF1	Alpha	"255"	Linear 0.05 0.01
+	Animate	YGTF2	Alpha	"255"	Linear 0.1 0.01
+	Animate	YGTF3	Alpha	"255"	Linear 0.15 0.01
+	Animate	YGTF4	Alpha	"255"	Linear 0.2 0.01
+	Animate	YGTF5	Alpha	"255"	Linear 0.25 0.01
+	Animate	YGTF6	Alpha	"255"	Linear 0.3 0.01
+	Animate	YGTF7	Alpha	"255"	Linear 0.35 0.01
+	Animate	YGTF8	Alpha	"255"	Linear 0.4 0.01
+	Animate	YGTF9	Alpha	"255"	Linear 0.45 0.01
+	Animate	YGTF10	Alpha	"255"	Linear 0.5 0.01
+	Animate	YGTF11	Alpha	"255"	Linear 0.55 0.01
+	Animate	YGTF12	Alpha	"255"	Linear 0.6 0.01
+	Animate	YGTF13	Alpha	"255"	Linear 0.65 0.01
+	Animate	YGTF14	Alpha	"255"	Linear 0.7 0.01
+	
+	Animate	YGTF1	Alpha	"0"	Linear 1.5 0.01
+	Animate	YGTF2	Alpha	"0"	Linear 1.55 0.01
+	Animate	YGTF3	Alpha	"0"	Linear 1.6 0.01
+	Animate	YGTF4	Alpha	"0"	Linear 1.65 0.01
+	Animate	YGTF5	Alpha	"0"	Linear 1.7 0.01
+	Animate	YGTF6	Alpha	"0"	Linear 1.75 0.01
+	Animate	YGTF7	Alpha	"0"	Linear 1.8 0.01
+	Animate	YGTF8	Alpha	"0"	Linear 1.85 0.01
+	Animate	YGTF9	Alpha	"0"	Linear 1.9 0.01
+	Animate	YGTF10	Alpha	"0"	Linear 1.95 0.01
+	Animate	YGTF11	Alpha	"0"	Linear 2.0 0.01
+	Animate	YGTF12	Alpha	"0"	Linear 2.05 0.01
+	Animate	YGTF13	Alpha	"0"	Linear 2.1 0.01
+	Animate	YGTF14	Alpha	"0"	Linear 2.15 0.01
+}
+
+//===========================================

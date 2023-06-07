@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/obj_icons/ctf/compass_blue"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$additive" 1
+	"$translucent" 1
+	"$color"	"{255 170 0}"
+}
+

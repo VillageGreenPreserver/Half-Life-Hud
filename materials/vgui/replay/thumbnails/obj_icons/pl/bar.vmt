@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/obj_icons/pl/bar"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$additive" 1
+	"$translucent" 1
+}
+

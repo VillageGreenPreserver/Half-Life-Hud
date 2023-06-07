@@ -2,6 +2,7 @@
 #base "mainmenuoverride_buttons.res"
 #base "mainmenuoverride_safemode.res"
 #base "mainmenuoverride_motd.res"
+#base "mainmenuoverride_preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

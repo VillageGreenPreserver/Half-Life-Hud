@@ -473,7 +473,7 @@
 		"enabled"		"1"
 		"use_proportional_insets"		"1"
 		"textinsety"		"3"
-		"auto_wide_tocontents"	"1"
+		"auto_wide_tocontents"	"0"
 		
 		"pin_to_sibling"	"MainBG"
 		"pin_corner_to_sibling"	"0"
@@ -547,7 +547,7 @@
 		"fieldName"		"ServerTimeLeftValue"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%servertime%"
-		"textAlignment"		"south-west"
+		"textAlignment"		"south-east"
 		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -560,9 +560,9 @@
 		"fgcolor"		"c_orange"
 		"centerwrap"	"0"
 		
-		"pin_to_sibling"	"ServerLabel"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"1"
+		"pin_to_sibling"	"MapName"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"0"
 	}
 	"ServerTimeLeft"
 	{
