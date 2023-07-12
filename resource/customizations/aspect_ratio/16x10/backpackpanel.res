@@ -36,4 +36,22 @@
 		"wide"			"f164"
 		"tall"			"316"
 	}
+	
+	"DragToNextPageButton"
+	{
+		"xpos"			"r98"
+		"ypos"			"40"
+		"zpos"			"1"
+		"wide"			"16"
+		"tall"			"221"
+	}
+	
+	"DragToPrevPageButton"
+	{
+		"xpos"			"81"
+		"ypos"			"40"
+		"zpos"			"1"
+		"wide"			"16"
+		"tall"			"221"
+	}
 }

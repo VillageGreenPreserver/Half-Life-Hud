@@ -74,7 +74,6 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"C_Tahoma10-Bold-Dropshadow"
-		"font_minmode"	"TFFontLarge"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"

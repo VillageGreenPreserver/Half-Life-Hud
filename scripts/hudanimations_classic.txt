@@ -37,7 +37,27 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthValue 	alpha		"190"		Linear 1.0 0.5
 }
 
-//=====================
+//===========================================
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	
+	Animate	PlayerStatusHealthValue2 	fgcolor		"255 229 178 255"		Linear 0.0 0.0
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	Animate	PlayerStatusHealthValue2 	fgcolor		"c_orange"		Linear 0.0 0.0
+}
+
+//===========================================
 
 event HudLowAmmoPulse
 {
@@ -215,3 +235,83 @@ event FlagOutline
 }
 
 //===========================================
+
+event TeamStatus_PlayerDead
+{
+	SetVisible respawntime  1 0
+}
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible respawntime 1 0.2
+}
+
+//============================================
+
+// Active Timer BG Pulse
+event ActiveTimerBGPulse
+{
+}
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue Alpha	190		Linear 0.1 0.1
+	Animate TimePanelValue Alpha	255		Linear 0.3 0.1
+
+	Animate TimePanelValue Alpha	190		Linear 0.5 0.1
+	Animate TimePanelValue Alpha	255		Linear 0.7 0.1
+
+	Animate TimePanelValue Alpha	190		Linear 0.9 0.1
+	Animate TimePanelValue Alpha	255		Linear 1.1 0.1
+
+	Animate TimePanelValue Alpha	190		Linear 1.3 0.3
+	
+}
+
+event ActiveTimerDim
+{
+	// Slow fade out
+}
+
+
+//===========================================
+
+event OvertimeLabelPulseRed
+{
+	Animate	OvertimeLabel 	FgColor		c_hudnumbersdefault	Linear 0.0 0.3
+	Animate	OvertimeLabel 	FgColor		c_hudnumberslow	Linear 0.3 0.3
+
+	RunEvent OvertimeLabelPulseRed 0.6
+}
+
+event SuddenDeathLabelPulseRed
+{
+	Animate	SuddenDeathLabel 	FgColor		c_hudnumbersdefault	Linear 0.0 0.3
+	Animate	SuddenDeathLabel 	FgColor		c_hudnumberslow			Linear 0.3 0.3
+
+	RunEvent SuddenDeathLabelPulseRed 0.2
+}
+
+//===========================================
+
+event CompetitiveGame_ShowPvPRankPanel
+{
+	RunEventChild RankPanel PvPRankPanelShowXPChange 0
+	RunEventChild RankModelPanel PvPRankPanelShowXPChange 0
+}
+
+event MapVoted
+{
+	Animate VotesLabel	ypos	35		Deaccel 0	0.05
+	Animate VotesLabel	ypos	45		Deaccel 0.05 0.1
+}
+
+event WinningNextMapVote
+{
+	Animate VotesLabel	FgColor	C_Src_SelectionBG Deaccel	0	0.1.5
+}
+
+event LosingNextMapVote
+{
+	Animate VotesLabel	FgColor	C_Src_DefaultTextColor	Deaccel		0	0.1.5
+}

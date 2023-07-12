@@ -15,7 +15,7 @@
 		"xpos"				"cs-1"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"110"
+		"wide"				"80"
 		"tall"				"60"
 		"visible"			"1"
 		"enabled"			"1"
@@ -31,7 +31,11 @@
 		"delta_item_font"		"c_hudnumberssmall"
 		"delta_item_font_minmode"		"c_hudnumberssmallminmode"
 		
-		"wide_minmode"	"60"
+		"wide_minmode"	"40"
+	//	"if_match"
+	//	{
+	//		"xpos"	"cs-0.5"
+	//	}
 		
 		"TimePanelValue"
 		{
@@ -64,7 +68,7 @@
 		"xpos"				"c0"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"110"
+		"wide"				"80"
 		"tall"				"60"
 		"visible"			"1"
 		"enabled"			"1"
@@ -80,7 +84,14 @@
 		"delta_item_font"		"c_hudnumberssmall"
 		"delta_item_font_minmode"		"c_hudnumberssmallminmode"
 		
-		"wide_minmode"	"60"
+		"wide_minmode"	"40"
+		
+	//	"if_match"
+	//	{
+	//		"xpos"	"cs-0.5"
+	//		"ypos"	"40"
+	//		"ypos_minmode"	"20"
+	//	}
 		
 		"TimePanelValue"
 		{

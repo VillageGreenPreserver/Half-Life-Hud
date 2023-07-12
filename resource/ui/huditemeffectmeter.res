@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"MeterFG"		"White"
@@ -112,7 +113,7 @@
 	"BG"
 	{
 		"ControlName"	"Panel"
-		"fieldName"		"Modulate"
+		"fieldName"		"BG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"

@@ -63,7 +63,7 @@
 		"xpos_minmode"			"rs1-12"
 		"tall_minmode"			"1"
 		"wide_minmode"			"24"
-	}				
+	}
 		
 	"PipesPresentPanel"
 	{

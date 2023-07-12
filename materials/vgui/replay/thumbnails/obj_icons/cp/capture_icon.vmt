@@ -2,9 +2,7 @@
 {
 	"$baseTexture" "vgui/replay/thumbnails/obj_icons/cp/capture_icon"
 	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-	"%keywords" "tf"
+	"$vertexalpha" 1
 	"$translucent" 1
 }
 

@@ -361,7 +361,7 @@
 				"fgcolor"		"c_hudnumbersdefault"
 				"xpos"			"32"
 				"ypos"			"0"
-				"wide"			"24"
+				"wide"			"32"
 				"tall"			"12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -371,6 +371,8 @@
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"alpha"	"190"
+				
+				"auto_wide_tocontents"	"1"
 			
 				"font_minmode"	"C_HudNumbersSmallminmode"
 				"tall_minmode"	"7"
@@ -399,7 +401,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
 				"font"			"Default"
-				"xpos"			"0"
+				"xpos"			"4"
 				"ypos"			"0"
 				"wide"			"20"
 				"tall"			"3"				

@@ -44,10 +44,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HL_BG"
-		"xpos"		"c-300"
-		"ypos"		"c-200"
-		"wide"		"600"
-		"tall"		"400"
+		"xpos"		"cs-0.5"
+		"ypos"		"cs-0.5"
+		"wide"		"356"
+		"tall"		"200"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -111,7 +111,7 @@
 			"ypos"			"17"
 			"zpos"			"0"
 			"wide"			"f14"
-			"tall"			"f23"
+			"tall"			"f38"
 			"visible"		"1"	
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -128,8 +128,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ApplyButton"
-			"xpos"			"-4"
-			"ypos"			"-4"
+			"xpos"			"rs1-7"
+			"ypos"			"rs1-6"
 			"zpos"			"1"
 			"wide"			"50"
 			"tall"			"11"
@@ -138,7 +138,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"Apply Changes"
+			"labelText"		"Reload Hud"
 			"font"			"C_Src_Tahoma7"
 			"textAlignment"	"west"
 			"textinsetx"	"6"
@@ -152,11 +152,7 @@
 			"defaultfgColor_override"	"C_Src_TextColor"			
 			"defaultbgColor_override"	"C_Src_BGColor"			
 			"armedfgColor_override"	"C_Src_TextColor"			
-			"armedbgColor_override"	"C_Src_BGColor"		
-			
-			"pin_to_sibling"	"InnerShadow"
-			"pin_corner_to_sibling"	"3"
-			"pin_to_sibling_corner"	"3"
+			"armedbgColor_override"	"C_Src_BGColor"	
 		}
 		
 		"CloseButton2"
@@ -242,6 +238,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"The hud is styled after the original Half-Life."
 
 			"proportionaltoparent"	"1"
 			
@@ -277,6 +274,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"The hud is styled after Half-Life: Opposing Force."
 
 			"proportionaltoparent"	"1"
 			
@@ -312,6 +310,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"The hud is styled after Half-Life: Blue Shift."
 
 			"proportionaltoparent"	"1"
 			
@@ -347,6 +346,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"The hud is styled after Half-Life: Decay (Gina Cross' perspective)."
 
 			"proportionaltoparent"	"1"
 			
@@ -382,6 +382,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"The hud is styled after Half-Life: Decay (Collette Green's perspective)."
 
 			"proportionaltoparent"	"1"
 			
@@ -443,6 +444,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"The main menu background changes to fit the selected skin."
 
 			"proportionaltoparent"	"1"
 			
@@ -478,6 +480,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"The main menu background from Half-Life."
 
 			"proportionaltoparent"	"1"
 			
@@ -513,6 +516,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"A black lambda background."
 
 			"proportionaltoparent"	"1"
 			
@@ -548,6 +552,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"The main menu background from Team Fortress Classic."
 
 			"proportionaltoparent"	"1"
 			
@@ -740,6 +745,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"No backgrounds in the killfeed."
 
 			"proportionaltoparent"	"1"
 			
@@ -775,6 +781,7 @@
 			"paintbackground"	"1"
 			"actionsignallevel"	"3"
 			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"Adds a background to killfeed entries related to the player."
 
 			"proportionaltoparent"	"1"
 			
@@ -784,6 +791,101 @@
 			"armedbgColor_override"	"C_Src_BGColor"		
 			
 			"pin_to_sibling"	"KillfeedDefault"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+		
+		"MatchLabel"
+		{
+			"ControlName"	"CExLabel"
+			"xpos"			"7"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"60"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"Match Hud:"
+			"font"			"C_Src_Tahoma7"
+			"textAlignment"	"west"
+			"textinsetx"	"0"
+			"proportionaltoparent"	"1"
+			"fgColor_override"	"C_Src_DefaultTextColor"
+			
+			"pin_to_sibling"	"KillfeedLabel"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"1"
+		}
+		
+		"MatchDefault"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"60"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"Center"
+			"font"			"C_Src_Tahoma7"
+			"textAlignment"	"west"
+			"textinsetx"	"6"
+			"Command"		"engine match_def"
+			"paintbackground"	"1"
+			"actionsignallevel"	"3"
+			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"Aligns the match hud to the center of the screen."
+
+			"proportionaltoparent"	"1"
+			
+			"defaultfgColor_override"	"C_Src_TextColor"			
+			"defaultbgColor_override"	"C_Src_BGColor"			
+			"armedfgColor_override"	"C_Src_TextColor"			
+			"armedbgColor_override"	"C_Src_BGColor"		
+			
+			"pin_to_sibling"	"MatchLabel"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+		
+		"MatchLeft"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"60"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"Left"
+			"font"			"C_Src_Tahoma7"
+			"textAlignment"	"west"
+			"textinsetx"	"6"
+			"Command"		"engine match_left"
+			"paintbackground"	"1"
+			"actionsignallevel"	"3"
+			"border_default"		"C_Src_Convex"
+			"tooltiptext"	"Aligns the match hud to the left of the screen."
+
+			"proportionaltoparent"	"1"
+			
+			"defaultfgColor_override"	"C_Src_TextColor"			
+			"defaultbgColor_override"	"C_Src_BGColor"			
+			"armedfgColor_override"	"C_Src_TextColor"			
+			"armedbgColor_override"	"C_Src_BGColor"		
+			
+			"pin_to_sibling"	"MatchDefault"
 			"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}

@@ -1,5 +1,20 @@
 "Resource/UI/ControlPointIcon.res"
 {
+	"ControlPointIcon2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ControlPointIcon"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"12"
+		"tall"		"o1.25"
+		"visible"	"1"
+		"enabled"	"1"
+		
+		"wide_minmode"	"20"
+	}
+	
 	"ControlPointIcon"
 	{
 		"ControlName"	"EditablePanel"
@@ -7,12 +22,12 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"o1"
-		"tall"		"33"
+		"wide"		"32"
+		"tall"		"o1.25"
 		"visible"	"1"
 		"enabled"	"1"
 		
-		"tall_minmode"	"16"
+		"wide_minmode"	"20"
 	}
 	
 	"BaseImage"
@@ -20,13 +35,56 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"	"BaseImage"
 		"xpos"		"0"
-		"ypos"		"10"
+		"ypos"		"100"
 		"zpos"		"4"
 		"wide"		"10"
 		"tall"		"33"
 		"scaleimage"	"1"
 		"visible"	"1"
 		"enabled"	"1"
+	}
+	
+	"CapPin"
+	{
+		"ControlName"	"Panel"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"4"
+		"wide"		"10"
+		"tall"		"10"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"CapPinMinmode"
+	{
+		"ControlName"	"Panel"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"4"
+		"wide"		"10"
+		"tall"		"10"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
+	"CapImage"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"	"CapImage"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"4"
+		"wide"		"10"
+		"tall"		"10"
+		"tileimage"	"1"
+		"visible"	"1"
+		"enabled"	"1"
+		
+		"pin_to_sibling"	"CapPin"
+		"pin_to_sibling_minmode"	"CapPinMinmode"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 	
 	"Countdown"
@@ -47,38 +105,40 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"CapPlayerImage"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"50"
+		"ypos"		"10"
 		"zpos"		"5"
-		"wide"		"o0.5"
-		"tall"		"20"
+		"wide"		"22"
+		"tall"		"38"
 		"visible"	"0"
 		"enabled"	"1"
 		"image"		"replay/thumbnails/obj_icons/cp/capture_icon"
+		"image_minmode"		"replay/thumbnails/obj_icons/cp/capture_icon_minmode"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
+		"drawcolor"	"255 255 255 255"
 		
-		"tall_minmode"	"14"
+		"wide_minmode"	"16"
+		"tall_minmode"	"32"
 	}
 
 	"CapNumPlayers"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"C_Tahoma10-Bold-Dropshadow"
+		"font"			"C_Tahoma8-Bold-Dropshadow"
 		"font_minmode"			"C_Tahoma8-Bold-Dropshadow"
 		"disabledfgcolor2_override"			"255 255 255 255"
 		"xpos"			"rs1"
-		"ypos"			"0"
+		"ypos"			"-0"
 		"zpos"			"5"
-		"wide"			"p0.5"
-		"wide_minmode"			"f0"
-		"tall"			"f0"
+		"wide"			"10"
+		"wide_minmode"			"10"
+		"tall"			"6"
 		"visible"		"1"
 		"enabled"		"0"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"west"
-		"textAlignment_minmode"		"east"
 		"proportionaltoparent"		"1"
 	}
 
@@ -87,7 +147,8 @@
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"OverlayImage"
 		"xpos"		"rs1"
-		"ypos"		"0"
+		"ypos"		"10"
+		"ypos_minmode"		"5"
 		"zpos"		"6"
 		"wide"		"o1"
 		"tall"		"8"
@@ -107,7 +168,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"12"
-		"tall"			"36"
+		"tall"			"23"
 		"tall_minmode"			"18"
 		"visible"		"0"
 		"enabled"		"1"

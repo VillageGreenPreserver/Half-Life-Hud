@@ -129,8 +129,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel1"
-		"xpos"			"20"
-		"ypos"			"208"
+		"xpos"			"rs1"
+		"ypos"			"160"
 		"zpos"			"100"
 		"wide"			"140"
 		"tall"			"28"
@@ -179,7 +179,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG1"
 		"xpos"			"0"
-		"ypos"			"208"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"28"
@@ -187,6 +187,10 @@
 		"bgcolor_override"		"0 0 0 160"
 		"border"		"HL_LineBorder"
 		"proportionaltoparent" "1"
+		
+		"pin_to_sibling"	"TauntModelPanel1"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}	
 
 	"NumberBg1"	
@@ -234,8 +238,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel2"
-		"xpos"			"20"
-		"ypos"			"236"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
 		"tall"			"28"
@@ -247,6 +251,10 @@
 		"text_forcesize"	"0"
 		"model_hide"		"1"
 		"name_only"		"1"
+		
+		"pin_to_sibling"	"TauntModelPanel1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 		
 		"MainContentsContainer"
 		{
@@ -284,7 +292,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG2"
 		"xpos"			"0"
-		"ypos"			"236"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"28"
@@ -292,6 +300,10 @@
 		"bgcolor_override"		"0 0 0 160"
 		"border"		"HL_LineBorder_SWE"
 		"proportionaltoparent" "1"
+		
+		"pin_to_sibling"	"TauntModelPanel2"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}	
 
 	"NumberBg2"
@@ -339,8 +351,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel3"
-		"xpos"			"20"
-		"ypos"			"264"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
 		"tall"			"28"
@@ -352,6 +364,10 @@
 		"text_forcesize"	"0"
 		"model_hide"		"1"
 		"name_only"		"1"
+		
+		"pin_to_sibling"	"TauntModelPanel2"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 		
 		"MainContentsContainer"
 		{
@@ -389,7 +405,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG3"
 		"xpos"			"0"
-		"ypos"			"264"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"28"
@@ -397,6 +413,10 @@
 		"bgcolor_override"		"0 0 0 160"
 		"border"		"HL_LineBorder_SWE"
 		"proportionaltoparent" "1"
+		
+		"pin_to_sibling"	"TauntModelPanel3"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}	
 	
 	"NumberBg3"
@@ -444,8 +464,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel4"
-		"xpos"			"20"
-		"ypos"			"292"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
 		"tall"			"28"
@@ -457,6 +477,10 @@
 		"text_forcesize"	"0"
 		"model_hide"		"1"
 		"name_only"		"1"
+		
+		"pin_to_sibling"	"TauntModelPanel3"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 		
 		"MainContentsContainer"
 		{
@@ -494,7 +518,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG4"
 		"xpos"			"0"
-		"ypos"			"292"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"28"
@@ -502,6 +526,10 @@
 		"bgcolor_override"		"0 0 0 160"
 		"border"		"HL_LineBorder_SWE"
 		"proportionaltoparent" "1"
+		
+		"pin_to_sibling"	"TauntModelPanel4"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}	
 
 	"NumberBg4"
@@ -549,8 +577,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel5"
-		"xpos"			"20"
-		"ypos"			"320"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
 		"tall"			"28"
@@ -562,6 +590,10 @@
 		"text_forcesize"	"0"
 		"model_hide"		"1"
 		"name_only"		"1"
+		
+		"pin_to_sibling"	"TauntModelPanel4"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 		
 		"MainContentsContainer"
 		{
@@ -599,7 +631,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG5"
 		"xpos"			"0"
-		"ypos"			"320"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"28"
@@ -607,6 +639,10 @@
 		"bgcolor_override"		"0 0 0 160"
 		"border"		"HL_LineBorder_SWE"
 		"proportionaltoparent" "1"
+		
+		"pin_to_sibling"	"TauntModelPanel5"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}	
 
 	"NumberBg5"
@@ -654,8 +690,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel6"
-		"xpos"			"20"
-		"ypos"			"348"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
 		"tall"			"28"
@@ -667,6 +703,10 @@
 		"text_forcesize"	"0"
 		"model_hide"		"1"
 		"name_only"		"1"
+		
+		"pin_to_sibling"	"TauntModelPanel5"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 		
 		"MainContentsContainer"
 		{
@@ -704,7 +744,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG6"
 		"xpos"			"0"
-		"ypos"			"348"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"28"
@@ -712,6 +752,10 @@
 		"bgcolor_override"		"0 0 0 160"
 		"border"		"HL_LineBorder_SWE"
 		"proportionaltoparent" "1"
+		
+		"pin_to_sibling"	"TauntModelPanel6"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}	
 
 	"NumberBg6"
@@ -759,8 +803,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel7"
-		"xpos"			"20"
-		"ypos"			"376"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
 		"tall"			"28"
@@ -772,6 +816,10 @@
 		"text_forcesize"	"0"
 		"model_hide"		"1"
 		"name_only"		"1"
+		
+		"pin_to_sibling"	"TauntModelPanel6"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 		
 		"MainContentsContainer"
 		{
@@ -809,7 +857,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG7"
 		"xpos"			"0"
-		"ypos"			"376"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"28"
@@ -817,6 +865,10 @@
 		"bgcolor_override"		"0 0 0 160"
 		"border"		"HL_LineBorder_SWE"
 		"proportionaltoparent" "1"
+		
+		"pin_to_sibling"	"TauntModelPanel7"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}	
 
 	"NumberBg7"
@@ -864,8 +916,8 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel8"
-		"xpos"			"20"
-		"ypos"			"404"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
 		"tall"			"28"
@@ -877,6 +929,10 @@
 		"text_forcesize"	"0"
 		"model_hide"		"1"
 		"name_only"		"1"
+		
+		"pin_to_sibling"	"TauntModelPanel7"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 		
 		"MainContentsContainer"
 		{
@@ -914,7 +970,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BG8"
 		"xpos"			"0"
-		"ypos"			"404"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"28"
@@ -922,6 +978,10 @@
 		"bgcolor_override"		"0 0 0 160"
 		"border"		"HL_LineBorder_SWE"
 		"proportionaltoparent" "1"
+		
+		"pin_to_sibling"	"TauntModelPanel8"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}	
 
 	"NumberBg8"

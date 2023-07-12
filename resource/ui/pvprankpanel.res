@@ -173,6 +173,7 @@
 			"tall"			"42"
 			"proportionaltoparent"	"1"
 			"command"	"medal_clicked"
+			"paintborder"	"0"
 			"actionsignallevel"	"2"
 			"labeltext"	""
 
@@ -186,7 +187,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"0"
-		"ypos"			"0f"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"

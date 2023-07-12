@@ -1926,12 +1926,12 @@ event MapVoted
 
 event WinningNextMapVote
 {
-	Animate VotesLabel	FgColor	CreditsGreen Deaccel	0	0.1.5
+	Animate VotesLabel	FgColor	C_Src_SelectionBG Deaccel	0	0.1.5
 }
 
 event LosingNextMapVote
 {
-	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
+	Animate VotesLabel	FgColor	C_Src_DisabledTextColor	Deaccel		0	0.1.5
 }
 
 event QuestMap_Start

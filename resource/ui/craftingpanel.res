@@ -181,8 +181,9 @@
 		"stayselectedonclick"	"1"
 		"selected"	"1"
 		"associate" "C_FilterCommon"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"pin_to_sibling"	"C_MegaContainer"
 		"pin_to_sibling_corner"	"0"
@@ -213,8 +214,8 @@
 		"font"		"c_src_tahoma8"
 		"command"		"selectfilter1"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"stayselectedonclick"	"1"
 		"selected"	"0"
@@ -251,8 +252,8 @@
 		"stayselectedonclick"	"1"
 		"selected"	"0"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"pin_to_sibling"	"C_FilterCommon"
 		"pin_to_sibling_corner"	"1"
@@ -286,8 +287,8 @@
 		"stayselectedonclick"	"1"
 		"selected"	"0"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"pin_to_sibling"	"C_FilterRare"
 		"pin_to_sibling_corner"	"1"

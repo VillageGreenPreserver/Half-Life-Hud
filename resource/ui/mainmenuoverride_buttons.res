@@ -356,6 +356,35 @@
 		}
 	}
 	
+	"FakeFindGameButton"
+	{
+		"ControlName"	"CExButton"
+		"xpos"			"12"
+		"ypos"			"368"
+		"zpos"			"-4"
+		"wide"			"70"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"font"			"C_Tahoma8"
+		"labelText"			"Find A Game"
+		"textAlignment"	"west"
+		"command"	""
+		"sound_depressed"	""
+		"sound_released"	""
+		"sound_armed"	""
+		"paintborder"	"0"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "C_MenuButtonDefault"
+		"armedFgColor_override" "C_MenuButtonArmed"
+		
+		"mouseinputenabled"	"0"
+		
+		"proportionaltoparent"	"1"	
+	}
+	
 	"Spacer2"
 	{
 		"ControlName"	"EditablePanel"

@@ -1,6 +1,9 @@
 #base "../cfg/hl_killfeed.txt"
 #base "../resource/customizations/killfeed/killfeed_default.res"
 
+#base "../cfg/hl_match_hudlayout.txt"
+#base "../resource/customizations/match/match_hudlayout_default.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -68,7 +71,7 @@
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-	}
+	}	
 	
 	HudMedicCharge
 	{
@@ -258,13 +261,13 @@
 		"enabled" 	"1"
 		"xpos"		"0"
 		"zpos"		"1"
-		"ypos"		"r60"
+		"ypos"		"r62"
 		"wide"	 	"252"
 		"tall"	 	"24"
 		"priority"	"40"
 		
 		"tall_minmode"	 	"20"
-		"ypos_minmode"	 	"r24"
+		"ypos_minmode"	 	"r50"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -292,15 +295,15 @@
 
 	}
 	
+	//	|	ypos comes from match_hudlayout to these two	|
+	//	V													V
+	
 	BuildingStatus_Spy
 	{
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"xpos"		"0"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -313,7 +316,6 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
 		
@@ -342,6 +344,22 @@
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
+	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"0"
+		"ypos"				"r100"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"65"
+		"ypos_minmode"		"r88"
+		"visible" 			"0"
+		"enabled" 			"1"
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -781,16 +799,18 @@
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
-		"xpos"					"c-5"
-		"ypos"					"rs10"
-		"wide"					"f0"
-		"tall"					"200"
+		"ControlName"	"EditablePanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"0"
 		"height_offset"			"8"
 		"height_offset_minmode"			"4"
+		"proportionaltoparent" "1"
 	}
 
 	HudCapturePanel
@@ -945,7 +965,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"32"
 		"wide"			"f0"
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
@@ -957,7 +977,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"32"
 		"wide"			"f0"
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
@@ -981,7 +1001,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-4"
 		"wide"			"f0"
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
@@ -1419,10 +1439,11 @@
 	MatchSummary
 	{
 		"fieldName" "MatchSummary"
-		"visible" "0"
+		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
+		"zpos"	"9999999999999999999999999999"
 		"wide"	"f0"
 		"tall"	"f0"
 	}

@@ -4,6 +4,7 @@ Scheme
 	{
 		"C_HudNumbersDefault"	"200 200 200 255"
 		"C_HudNumbersDefault_16"	"200 200 200 16"
+		"C_HudNumbersDefault_64"	"200 200 200 64"
 		
 		"C_HudNumbersDisabled"	"100 100 100 255"
 		

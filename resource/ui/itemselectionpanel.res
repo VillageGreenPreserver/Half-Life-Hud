@@ -388,6 +388,29 @@
 		"pin_to_sibling"	"CurPageLabel"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"3"
+	}
+	
+	"PrevPageButtonBind"
+	{
+		"ControlName"	"CExButton"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"1"
+		"wide"			"13"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&A"
+		"font"			"c_src_tahoma8"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"prevpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"CurPageLabel"
@@ -439,6 +462,29 @@
 		"pin_to_sibling"	"Background"
 		"pin_to_sibling_corner"	"3"
 		"pin_corner_to_sibling"	"3"
+	}	
+	
+	"NextPageButtonBind"
+	{
+		"ControlName"	"CExButton"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"zpos"			"1"
+		"wide"			"13"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&D"
+		"font"			"c_src_tahoma8"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"nextpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"mouseoveritempanel"

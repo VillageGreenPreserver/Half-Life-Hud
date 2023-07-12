@@ -214,7 +214,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallest"
+				"font"			"c_src_tahoma12"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"

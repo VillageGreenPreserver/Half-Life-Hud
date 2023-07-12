@@ -4,9 +4,9 @@
 	{
 		"delta_item_x"			"28"
 		"delta_item_x_minmode"	"68"
-		"delta_item_start_y"	"300"
+		"delta_item_start_y"	"480"
 		"delta_item_start_y_minmode"	"410"
-		"delta_item_end_y"		"300"
+		"delta_item_end_y"		"480"
 		"delta_item_end_y_minmode"		"410"
 		"PositiveColor"			"c_hudnumbersdefault"
 		"NegativeColor"			"c_hudnumberslow"

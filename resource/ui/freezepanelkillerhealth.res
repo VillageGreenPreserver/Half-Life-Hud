@@ -62,7 +62,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"f0"
+		"wide"			"0"
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -75,7 +75,7 @@
 	"PlayerStatusHealthValue2"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"PlayerStatusHealthValue2"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"

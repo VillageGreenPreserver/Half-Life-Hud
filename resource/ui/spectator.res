@@ -332,7 +332,7 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"c_src_bgcolor"
+		"bgcolor_override"		"0 0 0 100"
 		"PaintBackgroundType"	"0"
 		"PaintBackground"	"1"
 		
@@ -351,7 +351,7 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
-		"border"	"c_src_convex"
+		"border"	"noborder"
 		
 		"itemmodelpanel"
 		{

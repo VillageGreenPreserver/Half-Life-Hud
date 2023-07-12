@@ -3,6 +3,5 @@
 
 	"HudObjectiveStatus"
 	{
-	
 	}
 }

@@ -1,3 +1,6 @@
+#base "../../cfg/hl_match.txt"
+#base "../customizations/match/match_default.res"
+
 "Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
@@ -62,9 +65,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"c_hudnumbers"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
+		"ypos"			"p0.25"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"
@@ -76,7 +79,8 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"c_hudnumbersdefault"
+		"alpha"		"190"
 
 		if_readymode
 		{
@@ -92,8 +96,8 @@
 		"font"			"HudFontGiant"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"0"
+		"tall"			"0"
 		"zpos"			"4"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -102,7 +106,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"Blank"
 		"proportionaltoparent"	"1"
 
 	
@@ -195,17 +199,7 @@
 		}
 	}	
 
-	"RoundCounter"
-	{
-		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
-		"ypos"			"-2"
-		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
-	}	
+	
 
 	"BGFrame"
 	{
@@ -223,7 +217,7 @@
 
 		if_match
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 
@@ -318,269 +312,7 @@
 			"tall_minmode"			"21"
 		}	
 	}
-	"TeamStatus"
-	{
-		"ControlName"	"CTFTeamStatus"
-		"fieldName"		"TeamStatus"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"75"
-		"visible"		"1"
-		"enabled"		"1"
-
-
-		"max_size"	"19"
-
-		"6v6_gap"	"4"
-		"12v12_gap"	"1"
-
-		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
-		"team1_max_expand"	"133"
-
-		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
-		"team2_max_expand"	"133"
-
-		"playerpanels_kv"
-		{
-			"visible"		"0"
-			"wide"			"25"
-			"tall"			"50"
-			"zpos"			"1"
-
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
-			"color_portrait_bg_red_dead"	"79 54 52 255"
-			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
-			"color_bar_health_med"	"191 183 58 255"
-			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"191 58 58 255"
-			"percentage_health_low"	"0.3"
-			"color_portrait_blend_dead_red"	"255 255 255 255"
-			"color_portrait_blend_dead_blue" "255 255 255 255"
-			
-			"playername"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-			}
-			"classimage"
-			{
-				"ControlName"	"CTFClassImage"
-				"fieldName"		"classimage"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"3"
-				"wide"			"19"
-				"tall"			"19"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
-				"proportionaltoparent"	"1"
-			}
-			"classimagebg"
-			{
-				"ControlName"		"Panel"
-				"fieldName"		"classimagebg"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"f0"
-				"tall"			"19"
-				"visible"		"1"
-				"enabled"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-			}
-			"healthbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"healthbar"
-				"font"					"Default"																		
-				"xpos"					"0"
-				"ypos"					"19"
-				"zpos"					"5"
-				"wide"					"f0"
-				"tall"					"2"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "80 80 80 255"
-				"proportionaltoparent"	"1"
-			}
-			"overhealbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"overhealbar"
-				"font"					"Default"																		
-				"xpos"					"0"
-				"ypos"					"19"
-				"zpos"					"6"
-				"wide"					"f0"
-				"tall"					"2"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "255 255 255 160"
-				"proportionaltoparent"	"1"
-			}
-			"HealthIcon"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-3"
-				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
-				"visible"			"0"
-				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
-				"HealthDeathWarning"		"0.49"
-				"TFFont"					"HudFontSmallest"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"HudOffWhite"
-			}
-			"ReadyBG"
-			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"ReadyBG"
-				"xpos"			"30"
-				"ypos"			"6"
-				"zpos"			"-1"
-				"wide"			"16"
-				"tall"			"16"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
-			}
-			"ReadyImage"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"		"ReadyImage"
-				"xpos"			"32"
-				"ypos"			"8"
-				"zpos"			"0"
-				"wide"			"12"
-				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"hud/checkmark"
-				"scaleImage"	"1"
-			}
-			"respawntime"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"f0"
-				"tall"			"19"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
-			}
-			"chargeamount"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"17"
-				"zpos"			"6"
-				"wide"			"25"
-				"tall"			"15"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%chargeamount%"
-				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
-			}
-			"specindex"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
-			}
-			"DeathPanel"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"DeathPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
-				"zpos"			"0"
-				"wide"			"f0"
-				"tall"			"24"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/comp_player_status"	
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
-			}
-			"SkullPanel"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SkullPanel"
-				"xpos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"o1.2"
-				"tall"			"p0.15"
-				"visible"		"0"
-				"enabled"		"1"
-				"image"			"../HUD/comp_player_status_skull"	
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
-			}
-		}
-	}
+	
 
 	"BlueTeamPanel"
 	{
@@ -591,7 +323,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		if_large
@@ -607,11 +339,11 @@
 			"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"2"
-			"wide"			"147"
+			"wide"			"0"
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderBlueBGOpaque"
 		}
@@ -622,9 +354,9 @@
 			"xpos"			"9"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"56"
+			"wide"			"0"
 			"tall"			"56"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/team_blue"
 			"scaleImage"		"1"
@@ -634,10 +366,10 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
 			"font"			"CompMatchStartTeamNames"
-			"labelText"		"%blueteamname%"
+			"labelText"		"BLUE"
 			"textAlignment"		"center"
-			"xpos"			"48"
-			"ypos"			"13"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"20"
 			"wide"			"95"
 			"tall"			"30"
@@ -671,7 +403,7 @@
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
@@ -679,18 +411,20 @@
 		{
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"BluePlayerList"
-			"xpos"			"6"
-			"ypos"			"38"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"136"
-			"tall"			"205"
+			"wide"			"f0"
+			"tall"			"f0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"21"
+			"linegap"		"0"
+			"proportionaltoparent" "1"
+			"PaintBackground"	"0"
 			//"show_columns"	"1"
 
 			if_large
@@ -709,7 +443,7 @@
 			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 
@@ -729,7 +463,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		if_large
@@ -749,7 +483,7 @@
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderRedBGOpaque"
 		}
@@ -760,9 +494,9 @@
 			"xpos"			"84"
 			"ypos"			"-9"
 			"zpos"			"5"
-			"wide"			"70"
+			"wide"			"0"
 			"tall"			"70"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/team_Red"
 			"scaleImage"		"1"
@@ -817,18 +551,20 @@
 		{
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"RedPlayerList"
-			"xpos"			"6"
-			"ypos"			"38"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"136"
-			"tall"			"205"
+			"wide"			"f0"
+			"tall"			"f0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"21"
+			"linegap"		"0"
+			"proportionaltoparent" "1"
+			"PaintBackground"	"0"
 			//"show_columns"	"1"
 
 			if_large
@@ -847,7 +583,7 @@
 			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 

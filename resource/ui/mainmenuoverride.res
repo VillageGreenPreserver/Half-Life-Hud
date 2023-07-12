@@ -209,7 +209,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"r0"
-		"ypos"			"cs-0.5-120"
+		"ypos"			"r0"
 
 		"zpos"			"-51"
 		"wide"			"0"
@@ -1126,7 +1126,7 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
-	}
+	}	
 	
 	"DashboardDimmer"
 	{

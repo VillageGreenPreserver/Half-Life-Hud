@@ -28,7 +28,7 @@
 		"IconColor"		"255 96 50 200"
 		"LocalPlayerColor"	"255 96 50 200"
 
-		"BaseBackgroundColor"	"0 0 0 100"
-		"LocalBackgroundColor"	"200 200 200 196"
+		"BaseBackgroundColor"	"0 0 0 0"
+		"LocalBackgroundColor"	"C_HudNumbersDefault_64"
 	}
 }
