@@ -514,9 +514,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -534,9 +532,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Jeremy
-										Boston, USA
-										Rapid Recovery"
+					"labeltext"			"#Info-1"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -623,9 +619,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -643,9 +637,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Jane Doe
-										Midwest, USA
-										Shock and Awe"
+					"labeltext"			"#Info-2"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -732,9 +724,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -752,9 +742,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Unknown
-										Unknown
-										Pyrotechnics"
+					"labeltext"			"#Info-3"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -874,9 +862,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -894,9 +880,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Tavish Finnegan DeGroot
-										Ullapool, Scotland
-										House Cleaning"
+					"labeltext"			"#Info-4"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -983,9 +967,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1003,9 +985,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Mikhail
-										Dzhugdzhur Mountains, USSR
-										Mow Down"
+					"labeltext"			"#Info-5"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1092,9 +1072,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1112,9 +1090,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Dell Conagher
-										Texas, USA
-										Area Denial"
+					"labeltext"			"#Info-6"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1234,9 +1210,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1254,9 +1228,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Dr. Ludwig
-										Stuttgart, Germany
-										Doctor Assisted Homicide"
+					"labeltext"			"#Info-7"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1343,9 +1315,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1363,9 +1333,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Mr. Mundy
-										Australia, born in New Zealand
-										Precision Elimination"
+					"labeltext"			"#Info-8"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1452,9 +1420,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Name:
-										Location of origin:
-										Job:"
+					"labeltext"			"#Info"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}
@@ -1472,9 +1438,7 @@
 					"proportionaltoparent"	"1"
 					"textalignment"	"north-west"
 					"wrap"			"1"
-					"labeltext"			"Unknown
-										France
-										Uncloak and Dagger"
+					"labeltext"			"#Info-9"
 					"fgcolor_override"			"c_src_dulltextcolor"
 					"font"			"c_src_tahoma7"
 				}

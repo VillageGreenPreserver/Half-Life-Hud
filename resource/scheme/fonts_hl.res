@@ -54,6 +54,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"8"
 				"weight"	"1000"
+				"antialias"	"0"
 			}
 		}
 		
@@ -65,6 +66,7 @@ Scheme
 				"tall"		"8"
 				"weight"	"800"
 				"dropshadow"	"1"
+				"antialias"	"0"
 			}
 		}
 		
@@ -75,6 +77,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"9"
 				"weight"	"1000"
+				"antialias"	"0"
 			}
 		}
 		
@@ -85,6 +88,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"10"
 				"weight"	"0"
+				"antialias"	"0"
 			}
 		}
 		
@@ -95,6 +99,7 @@ Scheme
 				"name"		"Tahoma Bold"
 				"tall"		"10"
 				"weight"	"0"
+				"antialias"	"0"
 			}
 		}
 		
@@ -106,6 +111,7 @@ Scheme
 				"tall"		"10"
 				"weight"	"0"
 				"dropshadow"	"1"
+				"antialias"	"0"
 			}
 		}
 		
@@ -116,6 +122,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"0"
+				"antialias"	"0"
 			}
 		}
 		
@@ -126,6 +133,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"14"
 				"weight"	"300"
+				"antialias"	"0"
 			}
 		}
 		
@@ -136,6 +144,7 @@ Scheme
 				"name"		"Tahoma Bold"
 				"tall"		"14"
 				"weight"	"800"
+				"antialias"	"0"
 			}
 		}
 		
@@ -146,6 +155,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"16"
 				"weight"	"500"
+				"antialias"	"0"
 			}
 		}
 		
@@ -156,6 +166,7 @@ Scheme
 				"name"		"Tahoma Bold"
 				"tall"		"16"
 				"weight"	"500"
+				"antialias"	"0"
 			}
 		}
 		
@@ -167,6 +178,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"500"
 				"dropshadow"	"1"
+				"antialias"	"0"
 			}
 		}
 		
@@ -450,6 +462,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"4"
 				"weight"	"0"
+				"antialias"	"0"
 			}
 		}
 		"C_Src_Tahoma6"
@@ -459,6 +472,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"6"
 				"weight"	"0"
+				"antialias"	"0"
 			}
 		}
 		"C_Src_Tahoma7"
@@ -468,6 +482,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"7"
 				"weight"	"0"
+				"antialias"	"0"
 			}
 		}
 		"C_Src_Tahoma8"
@@ -477,6 +492,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"8"
 				"weight"	"0"
+				"antialias"	"0"
 			}
 		}
 		
@@ -488,6 +504,7 @@ Scheme
 				"tall"		"6"
 				"weight"	"0"
 				"symbol"	"1"
+				"antialias"	"0"
 			}
 		}
 	}

@@ -444,11 +444,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"24"
-				"weight"	"500"
+				"name"		"Tahoma"
+				"tall"		"8"
+				"weight"	"0"
 				"additive"	"0"
-				"antialias" "1"
+				"antialias" "0"
 			}
 		}
 		"HudFontMediumBold"
