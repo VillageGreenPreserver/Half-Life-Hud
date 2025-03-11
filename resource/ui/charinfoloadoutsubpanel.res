@@ -49,6 +49,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"paintBackground"	"1"
 		"border"		"c_src_convex"
 		"bgcolor_override"		"c_src_bgcolor"
 	}

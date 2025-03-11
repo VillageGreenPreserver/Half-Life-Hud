@@ -22,6 +22,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		""
+			"button_activation_type"	"2"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"

@@ -516,6 +516,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
+		"button_activation_type"	"2"
 		"font"			"c_src_tahoma8"
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -559,6 +560,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
+		"button_activation_type"	"2"
 		"Command"		"tauntloadout"
 		"font"			"c_src_tahoma8"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -624,6 +626,7 @@
 		"default"		"0"
 		"Command"		"sv_cheats 1; r_skin 0"
 		"font"			"c_src_tahoma8"
+		"button_activation_type"	"2"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
@@ -652,6 +655,7 @@
 		"default"		"0"
 		"Command"		"sv_cheats 1; r_skin 1"
 		"font"			"c_src_tahoma8"
+		"button_activation_type"	"2"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		

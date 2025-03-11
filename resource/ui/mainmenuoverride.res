@@ -124,7 +124,7 @@
 				"zpos"			"9"
 			}
 		}
-	}	
+	}
 
 	"mouseoveritempanel"
 	{
